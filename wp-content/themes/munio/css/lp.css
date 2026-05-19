@@ -390,28 +390,23 @@
 
 /* ---- Limited Edition -------------------------------------- */
 .lp-limited {
-	position: relative;
+	background: #fff !important;
+	color: #000 !important;
 	padding: 120px 80px;
-	background: #fff;
-	color: #000;
-	text-align: center;
 	overflow: hidden;
 }
 
-.lp-limited__label {
-	font-size: 10px;
-	font-weight: 400;
-	letter-spacing: 0.5em;
-	color: rgba(0,0,0,0.25);
-	text-transform: uppercase;
-	margin: 0 0 20px;
-	display: block;
+.lp-limited__inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
 
 .lp-limited__headline {
 	font-size: clamp(36px, 5.5vw, 76px);
 	font-weight: 700;
-	color: #000;
+	color: #000 !important;
 	letter-spacing: -0.03em;
 	line-height: 1.02;
 	margin: 0 0 28px;
@@ -420,27 +415,17 @@
 .lp-limited__desc {
 	font-size: 16px;
 	font-weight: 300;
-	color: rgba(0,0,0,0.45);
+	color: rgba(0,0,0,0.45) !important;
 	line-height: 1.85;
 	max-width: 560px;
-	margin: 0 auto 52px;
-}
-
-.lp-btn--dark {
-	border-color: rgba(0,0,0,0.25);
-	color: rgba(0,0,0,0.65);
-}
-
-.lp-btn--dark:hover {
-	background: #000;
-	border-color: #000;
-	color: #fff;
+	margin: 0 0 52px;
 }
 
 .lp-limited__gallery {
 	display: flex;
+	flex-direction: row;
 	gap: 10px;
-	justify-content: center;
+	width: 100%;
 	margin: 0 0 52px;
 }
 
@@ -462,6 +447,17 @@
 
 .lp-limited__gallery-item:hover img {
 	transform: scale(1.06);
+}
+
+.lp-btn--dark {
+	border-color: rgba(0,0,0,0.25) !important;
+	color: rgba(0,0,0,0.65) !important;
+}
+
+.lp-btn--dark:hover {
+	background: #000 !important;
+	border-color: #000 !important;
+	color: #fff !important;
 }
 
 /* ---- Short Film (single feature, video bg) ---------------- */
@@ -609,9 +605,13 @@
 	}
 	.lp-limited__gallery {
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.lp-limited__gallery-item {
 		flex: 1 1 calc(50% - 5px);
+	}
+	.lp-limited {
+		padding: 64px 24px;
 	}
 }
 
