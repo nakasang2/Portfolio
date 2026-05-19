@@ -391,10 +391,15 @@
 /* ---- Limited Edition -------------------------------------- */
 .lp-limited {
 	position: relative;
-	padding: 148px 80px;
+	padding: 120px 80px;
 	background: #fff;
-	text-align: center;
 	overflow: hidden;
+}
+
+.lp-limited__text {
+	position: relative;
+	text-align: center;
+	margin-bottom: 72px;
 }
 
 .lp-limited__watermark {
@@ -449,6 +454,34 @@
 	background: #000;
 	border-color: #000;
 	color: #fff;
+}
+
+.lp-limited__gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 10px;
+}
+
+.lp-limited__gallery[data-count="1"] { grid-template-columns: 1fr; max-width: 640px; margin: 0 auto; }
+.lp-limited__gallery[data-count="2"] { grid-template-columns: repeat(2, 1fr); }
+.lp-limited__gallery[data-count="3"] { grid-template-columns: repeat(3, 1fr); }
+
+.lp-limited__gallery-item {
+	aspect-ratio: 3/4;
+	overflow: hidden;
+	background: #f0f0f0;
+}
+
+.lp-limited__gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.65s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	display: block;
+}
+
+.lp-limited__gallery-item:hover img {
+	transform: scale(1.06);
 }
 
 /* ---- Short Film (single feature, video bg) ---------------- */
@@ -593,6 +626,11 @@
 	}
 	.lp-film-feature__content {
 		padding: 0 24px 40px;
+	}
+	.lp-limited__gallery,
+	.lp-limited__gallery[data-count="2"],
+	.lp-limited__gallery[data-count="3"] {
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 

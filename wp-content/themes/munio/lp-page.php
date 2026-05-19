@@ -24,27 +24,40 @@ $hero_tagline = get_post_meta( $pid, 'lp_hero_tagline',    true );
 $hero_cta     = get_post_meta( $pid, 'lp_hero_cta_text',   true ) ?: 'View Works';
 $hero_anchor  = get_post_meta( $pid, 'lp_hero_cta_anchor', true ) ?: '#works';
 
-$about_image  = get_post_meta( $pid, 'lp_about_image',  true );
-$about_name   = get_post_meta( $pid, 'lp_about_name',   true );
-$about_bio    = get_post_meta( $pid, 'lp_about_bio',    true );
-$about_skills = get_post_meta( $pid, 'lp_about_skills', true );
+$about_section_label = get_post_meta( $pid, 'lp_about_section_label', true ) ?: 'About';
+$about_image         = get_post_meta( $pid, 'lp_about_image',  true );
+$about_name          = get_post_meta( $pid, 'lp_about_name',   true );
+$about_bio           = get_post_meta( $pid, 'lp_about_bio',    true );
+$about_skills        = get_post_meta( $pid, 'lp_about_skills', true );
 
-$works_count    = absint( get_post_meta( $pid, 'lp_works_count',    true ) ?: 6 );
-$works_category = get_post_meta( $pid, 'lp_works_category', true );
-$works_cta_text = get_post_meta( $pid, 'lp_works_cta_text', true ) ?: 'View All Works';
-$works_cta_url  = get_post_meta( $pid, 'lp_works_cta_url',  true );
+$works_section_label   = get_post_meta( $pid, 'lp_works_section_label',   true ) ?: 'Selected Works';
+$works_section_heading = get_post_meta( $pid, 'lp_works_section_heading', true ) ?: 'Works';
+$works_count           = absint( get_post_meta( $pid, 'lp_works_count',    true ) ?: 6 );
+$works_category        = get_post_meta( $pid, 'lp_works_category', true );
+$works_cta_text        = get_post_meta( $pid, 'lp_works_cta_text', true ) ?: 'View All Works';
+$works_cta_url         = get_post_meta( $pid, 'lp_works_cta_url',  true );
 
-$limited_headline = get_post_meta( $pid, 'lp_limited_headline', true );
-$limited_desc     = get_post_meta( $pid, 'lp_limited_desc',     true );
-$limited_cta_text = get_post_meta( $pid, 'lp_limited_cta_text', true ) ?: 'Shop Now';
-$limited_cta_url  = get_post_meta( $pid, 'lp_limited_cta_url',  true );
+$limited_section_label = get_post_meta( $pid, 'lp_limited_section_label', true ) ?: 'Limited Edition';
+$limited_headline      = get_post_meta( $pid, 'lp_limited_headline', true );
+$limited_desc          = get_post_meta( $pid, 'lp_limited_desc',     true );
+$limited_cta_text      = get_post_meta( $pid, 'lp_limited_cta_text', true ) ?: 'Shop Now';
+$limited_cta_url       = get_post_meta( $pid, 'lp_limited_cta_url',  true );
+$limited_images        = array_filter( array(
+	get_post_meta( $pid, 'lp_limited_image_1', true ),
+	get_post_meta( $pid, 'lp_limited_image_2', true ),
+	get_post_meta( $pid, 'lp_limited_image_3', true ),
+	get_post_meta( $pid, 'lp_limited_image_4', true ),
+	get_post_meta( $pid, 'lp_limited_image_5', true ),
+	get_post_meta( $pid, 'lp_limited_image_6', true ),
+) );
 
-$film_video_url  = get_post_meta( $pid, 'lp_film_video_url',  true );
-$film_poster_url = get_post_meta( $pid, 'lp_film_poster_url', true );
-$film_title      = get_post_meta( $pid, 'lp_film_title',      true );
-$film_subtitle   = get_post_meta( $pid, 'lp_film_subtitle',   true );
-$film_cta_text   = get_post_meta( $pid, 'lp_film_cta_text',   true ) ?: 'Watch Film';
-$film_cta_url    = get_post_meta( $pid, 'lp_film_cta_url',    true );
+$film_section_label = get_post_meta( $pid, 'lp_film_section_label', true ) ?: 'Short Film';
+$film_video_url     = get_post_meta( $pid, 'lp_film_video_url',  true );
+$film_poster_url    = get_post_meta( $pid, 'lp_film_poster_url', true );
+$film_title         = get_post_meta( $pid, 'lp_film_title',      true );
+$film_subtitle      = get_post_meta( $pid, 'lp_film_subtitle',   true );
+$film_cta_text      = get_post_meta( $pid, 'lp_film_cta_text',   true ) ?: 'Watch Film';
+$film_cta_url       = get_post_meta( $pid, 'lp_film_cta_url',    true );
 
 $arrow_icon = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
@@ -105,7 +118,7 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 			<?php endif; ?>
 
 			<div class="lp-about__text">
-				<span class="lp-section__label">About</span>
+				<span class="lp-section__label"><?php echo esc_html( $about_section_label ); ?></span>
 				<?php if ( $about_name ) : ?>
 				<h2 class="lp-about__name"><?php echo esc_html( $about_name ); ?></h2>
 				<?php endif; ?>
@@ -133,8 +146,8 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 	<section id="works" class="lp-section">
 		<div class="lp-works__header">
 			<div>
-				<span class="lp-section__label">Selected Works</span>
-				<h2 class="lp-section__heading">Works</h2>
+				<span class="lp-section__label"><?php echo esc_html( $works_section_label ); ?></span>
+				<h2 class="lp-section__heading"><?php echo esc_html( $works_section_heading ); ?></h2>
 			</div>
 			<div class="lp-works__nav" aria-label="作品ナビゲーション">
 				<button class="lp-works__nav-btn" id="lp-works-prev" aria-label="前へ">
@@ -207,23 +220,35 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 	<!-- ====================================================
 	     LIMITED EDITION
 	     ==================================================== -->
-	<?php if ( $limited_headline || $limited_cta_url ) : ?>
+	<?php if ( $limited_headline || $limited_cta_url || $limited_images ) : ?>
 	<section id="limited" class="lp-limited">
-		<div class="lp-limited__watermark" aria-hidden="true">LIMITED</div>
-		<span class="lp-limited__label">Limited Edition</span>
-		<?php if ( $limited_headline ) : ?>
-		<h2 class="lp-limited__headline"><?php echo esc_html( $limited_headline ); ?></h2>
-		<?php endif; ?>
-		<?php if ( $limited_desc ) : ?>
-		<p class="lp-limited__desc"><?php echo nl2br( esc_html( $limited_desc ) ); ?></p>
-		<?php endif; ?>
-		<?php if ( $limited_cta_url ) : ?>
-		<a href="<?php echo esc_url( $limited_cta_url ); ?>"
-		   class="lp-btn lp-btn--dark hide-ball<?php echo $use_ajax ? ' ajax-link' : ''; ?>"
-		   <?php echo $use_ajax ? 'data-type="page-transition"' : ''; ?>>
-			<?php echo esc_html( $limited_cta_text ); ?>
-			<?php echo $arrow_icon; ?>
-		</a>
+		<div class="lp-limited__text">
+			<div class="lp-limited__watermark" aria-hidden="true">LIMITED</div>
+			<span class="lp-limited__label"><?php echo esc_html( $limited_section_label ); ?></span>
+			<?php if ( $limited_headline ) : ?>
+			<h2 class="lp-limited__headline"><?php echo esc_html( $limited_headline ); ?></h2>
+			<?php endif; ?>
+			<?php if ( $limited_desc ) : ?>
+			<p class="lp-limited__desc"><?php echo nl2br( esc_html( $limited_desc ) ); ?></p>
+			<?php endif; ?>
+			<?php if ( $limited_cta_url ) : ?>
+			<a href="<?php echo esc_url( $limited_cta_url ); ?>"
+			   class="lp-btn lp-btn--dark hide-ball<?php echo $use_ajax ? ' ajax-link' : ''; ?>"
+			   <?php echo $use_ajax ? 'data-type="page-transition"' : ''; ?>>
+				<?php echo esc_html( $limited_cta_text ); ?>
+				<?php echo $arrow_icon; ?>
+			</a>
+			<?php endif; ?>
+		</div>
+
+		<?php if ( $limited_images ) : ?>
+		<div class="lp-limited__gallery" data-count="<?php echo count( $limited_images ); ?>">
+			<?php foreach ( $limited_images as $img_url ) : ?>
+			<div class="lp-limited__gallery-item">
+				<img src="<?php echo esc_url( $img_url ); ?>" alt="" loading="lazy">
+			</div>
+			<?php endforeach; ?>
+		</div>
 		<?php endif; ?>
 	</section>
 	<?php endif; ?>
@@ -249,7 +274,7 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 		<div class="lp-film-feature__overlay"></div>
 
 		<div class="lp-film-feature__content">
-			<span class="lp-film-feature__eyebrow">Short Film</span>
+			<span class="lp-film-feature__eyebrow"><?php echo esc_html( $film_section_label ); ?></span>
 			<?php if ( $film_title ) : ?>
 			<h2 class="lp-film-feature__title"><?php echo esc_html( $film_title ); ?></h2>
 			<?php endif; ?>
