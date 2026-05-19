@@ -222,33 +222,31 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 	     ==================================================== -->
 	<?php if ( $limited_headline || $limited_cta_url || $limited_images ) : ?>
 	<section id="limited" class="lp-limited">
-		<div class="lp-limited__text">
-			<div class="lp-limited__watermark" aria-hidden="true">LIMITED</div>
-			<span class="lp-limited__label"><?php echo esc_html( $limited_section_label ); ?></span>
-			<?php if ( $limited_headline ) : ?>
-			<h2 class="lp-limited__headline"><?php echo esc_html( $limited_headline ); ?></h2>
-			<?php endif; ?>
-			<?php if ( $limited_desc ) : ?>
-			<p class="lp-limited__desc"><?php echo nl2br( esc_html( $limited_desc ) ); ?></p>
-			<?php endif; ?>
-			<?php if ( $limited_cta_url ) : ?>
-			<a href="<?php echo esc_url( $limited_cta_url ); ?>"
-			   class="lp-btn lp-btn--dark hide-ball<?php echo $use_ajax ? ' ajax-link' : ''; ?>"
-			   <?php echo $use_ajax ? 'data-type="page-transition"' : ''; ?>>
-				<?php echo esc_html( $limited_cta_text ); ?>
-				<?php echo $arrow_icon; ?>
-			</a>
-			<?php endif; ?>
-		</div>
+		<span class="lp-limited__label"><?php echo esc_html( $limited_section_label ); ?></span>
+		<?php if ( $limited_headline ) : ?>
+		<h2 class="lp-limited__headline"><?php echo esc_html( $limited_headline ); ?></h2>
+		<?php endif; ?>
+		<?php if ( $limited_desc ) : ?>
+		<p class="lp-limited__desc"><?php echo nl2br( esc_html( $limited_desc ) ); ?></p>
+		<?php endif; ?>
 
 		<?php if ( $limited_images ) : ?>
-		<div class="lp-limited__gallery" data-count="<?php echo count( $limited_images ); ?>">
+		<div class="lp-limited__gallery">
 			<?php foreach ( $limited_images as $img_url ) : ?>
 			<div class="lp-limited__gallery-item">
 				<img src="<?php echo esc_url( $img_url ); ?>" alt="" loading="lazy">
 			</div>
 			<?php endforeach; ?>
 		</div>
+		<?php endif; ?>
+
+		<?php if ( $limited_cta_url ) : ?>
+		<a href="<?php echo esc_url( $limited_cta_url ); ?>"
+		   class="lp-btn lp-btn--dark hide-ball<?php echo $use_ajax ? ' ajax-link' : ''; ?>"
+		   <?php echo $use_ajax ? 'data-type="page-transition"' : ''; ?>>
+			<?php echo esc_html( $limited_cta_text ); ?>
+			<?php echo $arrow_icon; ?>
+		</a>
 		<?php endif; ?>
 	</section>
 	<?php endif; ?>
