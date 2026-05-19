@@ -30,9 +30,7 @@
 					
 					<div class="footer-middle">
 						<?php if( !is_page_template('carousel-page.php') && !is_page_template('showcase-page.php') ){ ?>
-							<?php if( munio_get_theme_options('clapat_munio_footer_copyright') ){ ?>
-							<div class="copyright"><?php echo wp_kses_post( munio_get_theme_options('clapat_munio_footer_copyright') ); ?></div>
-							<?php } ?>
+							<div class="copyright">&copy; <?php echo esc_html( date( 'Y' ) ); ?> Yusuke Nakamae</div>
 						<?php } else { ?>
 							<div class="showcase-subtitles-wrap"></div>
 						<?php }  ?>
