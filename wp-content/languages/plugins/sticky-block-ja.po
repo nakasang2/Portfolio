@@ -1,0 +1,32 @@
+# Translation of Plugins - Sticky Block for Gutenberg Editor - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Sticky Block for Gutenberg Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-12 19:57:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Sticky Block for Gutenberg Editor - Stable (latest release)\n"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "http://www.senff.com"
+msgstr "http://www.senff.com"
+
+#. Author of the plugin
+#: plugin.php dist/blocks.build.js:1 src/block/block.js:25
+msgid "Senff"
+msgstr "Senff"
+
+#. Description of the plugin
+#: plugin.php
+msgid "Adds a Sticky Block to the Gutenberg Block editor."
+msgstr "ブロックエディターへ固定式のブロックを追加します。"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "Sticky Block"
+msgstr "Sticky Block"

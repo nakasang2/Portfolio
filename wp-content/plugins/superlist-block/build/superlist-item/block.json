@@ -1,0 +1,43 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 3,
+	"name": "createwithrani/superlist-item",
+	"version": "0.1.3",
+	"title": "Super List Item",
+	"category": "design",
+	"description": "A list item that allows you to nest as many other blocks as you like inside it.",
+	"parent": [
+		"createwithrani/superlist-block"
+	],
+	"supports": {
+		"anchor": true,
+		"html": true,
+		"color": {
+			"background": true,
+			"gradients": true,
+			"text": true,
+			"link": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fontSize": true,
+			"__experimentalFontFamily": true,
+			"lineHeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalFontWeight": true,
+			"__experimentalLetterSpacing": true,
+			"__experimentalTextTransform": true,
+			"textAlign": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true
+			}
+		}
+	},
+	"textdomain": "superlist-block",
+	"editorScript": "file:index.js",
+	"editorStyle": "file:index.css",
+	"style": "file:style-index.css"
+}

@@ -1,0 +1,1301 @@
+# Translation of Plugins - CookieYes – Cookie Banner for Cookie Consent (Easy to setup GDPR/CCPA Compliant Cookie Notice) - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - CookieYes – Cookie Banner for Cookie Consent (Easy to setup GDPR/CCPA Compliant Cookie Notice) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-07-15 14:17:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - CookieYes – Cookie Banner for Cookie Consent (Easy to setup GDPR/CCPA Compliant Cookie Notice) - Stable (latest release)\n"
+
+#: lite/admin/modules/settings/includes/class-controller.php:263
+msgid "Free"
+msgstr "無料"
+
+#: legacy/admin/views/admin-settings-messagebar.php:31
+msgid "Supports shortcodes.(link shortcodes to help link) e.g. [cookie_accept_all] for accept all button, [cookie_button] for accept button, [cookie_reject] for reject button, [cookie_link] for Read more, [cookie_settings] for cookie settings."
+msgstr "ショートコードに対応しています。（ショートコードはリンクのヘルプにあります）例：[cookie_accept_all] はすべて受け入れるボタン、[cookie_button] は受け入れるボタン、[cookie_reject] は拒否ボタン、[cookie_link] はもっと読む、[cookie_settings] はクッキー設定に使用します。"
+
+#: legacy/admin/views/admin-settings-buttons.php:224
+msgid "‘Read more’ redirects users to the ‘Privacy & Cookie Policy’ page. Create a ‘Privacy & Cookie Policy’ page for your site from here."
+msgstr "「続きを読む」は「プライバシー＆ Cookie ポリシー」ページにリダイレクトされます。ここから、あなたのサイトの「プライバシー＆ Cookie ポリシー」ページを作成してください。"
+
+#: legacy/admin/views/admin-settings-buttons.php:323
+msgid "Hide cookie bar in this page/URL"
+msgstr "このページ・URL の cookie バーを非表示にする"
+
+#: legacy/admin/views/admin-settings-buttons.php:227
+msgid "Insert the shortcode <strong>[cookie_link]</strong> in <strong>Customise Cookie Bar > Cookie bar > Message</strong> to include ‘Read more’ within the cookie consent bar."
+msgstr "ショートコード <strong>[cookie_link]</strong> を<strong>Cookie バーをカスタマイズ > Cookieバー > メッセージ</strong>に挿入すると、Cookie 同意バーに「続きを読む」ボタンが表示されます。"
+
+#: legacy/admin/modules/ccpa/ccpa.php:150
+msgid "GDPR compliance is essential for your website if it has a target audience from the European union."
+msgstr "GDPR への対応は、EU をターゲットとするウェブサイトにとって不可欠です。"
+
+#: legacy/admin/modules/ccpa/ccpa.php:158
+msgid "Comply with both the laws on the same website if your target audience are from European union and California."
+msgstr "EU とカリフォルニア州のユーザーをターゲットとする場合、同じウェブサイト上で両方の法律を遵守してください。"
+
+#: legacy/admin/modules/ccpa/ccpa.php:154
+msgid "CCPA compliance is essential for your website if it has a target audience from California."
+msgstr "カリフォルニア州のユーザーをターゲットとするウェブサイトでは、CCPA の遵守が不可欠です。"
+
+#: legacy/admin/views/admin-settings-messagebar.php:20
+msgid "Input text to have a heading for the cookie consent bar. Leave it blank if you do not need one."
+msgstr "Cookie 同意バーの見出しとなるテキストを入力してください。必要ない場合は空欄にしてください。"
+
+#: legacy/admin/views/admin-settings-messagebar.php:31
+msgid "Modify/edit the content of the cookie consent bar."
+msgstr "クッキー同意バーの内容を変更・編集する。"
+
+#: legacy/admin/views/admin-settings-messagebar.php:215
+msgid "Text on the widget"
+msgstr "ウィジェット上のテキスト"
+
+#: legacy/admin/views/admin-settings-buttons.php:22
+msgid "Customize the Accept button to match the theme of your site. Insert the shortcode [cookie_button] in Customise Cookie Bar > Cookie bar > Message to include accept button in cookie consent bar."
+msgstr "サイトのテーマに合わせて受託ボタンをカスタマイズしてください。ショートコード [cookie_button] を Cookie バーをカスタマイズ > Cookie バー > メッセージ に挿入すると、Cookie 同意バーに受け入れボタンが表示されます。"
+
+#: legacy/admin/views/admin-settings-messagebar.php:150
+msgid "Revisit consent will allow the visitors to view/edit/revoke their prior preferences. Enable to display a sticky/fixed widget widget at the footer of your website. You can also manually insert a widget by adding the shortcode <strong>[wt_cli_manage_consent]</strong> to your website."
+msgstr "再訪同意により、訪問者は以前の設定を表示・編集・取り消すことができるようになります。ウェブサイトのフッターにスティッキー・固定ウィジェットを表示できるようにします。 ショートコード <strong>[wt_cli_manage_consent]</strong> をウェブサイトに追加して、ウィジェットを手動で挿入することもできます。 "
+
+#: legacy/admin/views/admin-settings-messagebar.php:161
+msgid "Enable to display a sticky/fixed widget at the footer of your website (remains fixed on page scroll)."
+msgstr "ウェブサイトのフッターにスティッキー・固定ウィジェットを表示できるようにします。（ページスクロール時に固定されたままになります）"
+
+#: legacy/admin/views/admin-settings-messagebar.php:218
+msgid "Input a text to appear on the revisit consent widget."
+msgstr "再訪同意ウィジェットに表示するテキストを入力します。"
+
+#: legacy/admin/views/admin-settings-buttons.php:99
+msgid "Customize the Reject button to match the theme of your site. Insert the shortcode <strong>[cookie_reject]</strong> in <strong>Customise Cookie Bar > Cookie bar > Message</strong> to include reject button in cookie consent bar."
+msgstr "サイトのテーマに合わせて拒否ボタンをカスタマイズしてください。ショートコード <strong>[cookie_reject]</strong> を <strong>Cookie バーをカスタマイズ > Cookie バー> メッセージ</strong>に挿入すると、Cookie 同意バーに拒否ボタンが表示されます。"
+
+#: legacy/admin/class-cookie-law-info-admin.php:377
+msgid "Close consent bar"
+msgstr "同意バーを閉じる"
+
+#: legacy/admin/class-cookie-law-info-admin.php:381
+msgid "Redirect to URL on click"
+msgstr "クリックで URL へリダイレクト"
+
+#: legacy/admin/views/admin-settings-buttons.php:180
+msgid "Customize the cookie settings to match the theme of your site. Insert the shortcode <strong>[cookie_settings]</strong> in <strong>Customise Cookie Bar > Cookie bar > Message</strong> to include cookie settings within the cookie consent bar. Clicking ‘Cookie settings’ opens up a pop up window with provisions to enable/disable cookie categories."
+msgstr "サイトのテーマに合わせて Cookie の設定をカスタマイズしてください。ショートコード <strong>[cookie_settings]</strong> を <strong>Cookie バーをカスタマイズ > Cookie バー > メッセージ</strong>に挿入すると、Cookie 同意バーに Cookie の設定ボタンが表示されます。「Cookie の設定」をクリックすると、Cookie のカテゴリーを有効・無効にするためのポップアップウィンドウが表示されます。"
+
+#: legacy/admin/views/admin-settings-buttons.php:14
+#: legacy/admin/views/admin-settings-buttons.php:222
+msgid "Read more"
+msgstr "続きを読む"
+
+#: legacy/admin/views/admin-settings-help.php:17
+msgid "You can insert the shortcodes in the Settings > Customise Cookie Bar > Cookie bar > Message to get it rendered on the cookie consent bar of your site."
+msgstr "設定＞Cookie バーをカスタマイズ＞Cookie バー＞メッセージでショートコードを挿入すると、サイトの Cookie 同意バーにレンダリングされるようになります。"
+
+#: legacy/admin/views/admin-settings-buttons.php:10
+#: legacy/admin/views/admin-settings-buttons.php:370
+msgid "Accept All Button"
+msgstr "全受託ボタン"
+
+#: legacy/admin/modules/cookies/cookies.php:320
+msgid "Edit cookie category"
+msgstr "Cookie カテゴリーを編集"
+
+#: legacy/admin/modules/cookies/cookies.php:319
+msgid "Add cookie category"
+msgstr "Cookie カテゴリを追加"
+
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:33
+#: lite/admin/dist/js/4.js:155
+msgid "Total cookies"
+msgstr "全ての Cookie"
+
+#: legacy/admin/modules/cookie-scaner/views/settings.php:195
+msgid "Cookie scanner"
+msgstr "Cookie スキャナー"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:518
+msgid "No cookies found"
+msgstr "Cookie が見つかりません"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:512
+msgid "cookies deleted."
+msgstr "Cookie が削除されました。"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:507
+msgid "cookies added."
+msgstr "Cookie を追加しました。"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:414
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページにアクセスするための十分な権限がありません。"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:411
+msgid "Unable to handle your request"
+msgstr "リクエストを処理できません"
+
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:394
+msgid "Abort failed"
+msgstr "中断が失敗しました"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:577
+msgid "Abort scan"
+msgstr "スキャンを中断"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:545
+msgid "Scan aborted"
+msgstr "スキャンが中断されました"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:574
+msgid "Scan initiated..."
+msgstr "スキャンが開始されました..."
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:333
+msgid "Could not abort the scan, please try again"
+msgstr "スキャンを中断できませんでした。もう一度お試しください"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:332
+msgid "Aborting the scan..."
+msgstr "スキャンを中断しています..."
+
+#: legacy/public/views/cookie-law-info_bar.php:50
+msgid "SAVE & ACCEPT"
+msgstr "保存して同意"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:326
+msgid "Thank you"
+msgstr "ありがとうございます"
+
+#: legacy/admin/modules/cookies/cookies.php:61
+msgid "Term meta cannot be added to terms that are shared between taxonomies."
+msgstr "タクソノミー間で共有されているタームにメタ情報を追加することはできません。"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:306
+msgid "Stop"
+msgstr "停止"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:269
+msgid "Reset Password"
+msgstr "パスワードをリセット"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1078
+msgid "Reset password"
+msgstr "パスワードをリセット"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:314
+msgid "Recommended"
+msgstr "推奨"
+
+#: legacy/public/views/cookie-law-info_bar.php:55
+msgid "Powered by"
+msgstr "Powered by"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1072
+msgid "Password"
+msgstr "パスワード"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:313
+msgid "Merge"
+msgstr "統合"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1081
+msgid "Login"
+msgstr "ログイン"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:156
+#: legacy/includes/class-cookie-law-info-cookieyes.php:204
+msgid "Invalid request"
+msgstr "無効なリクエスト"
+
+#: legacy/admin/modules/cookies/cookies.php:253
+msgid "ID"
+msgstr "ID"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:273
+#: legacy/includes/class-cookie-law-info-cookieyes.php:287
+#: legacy/includes/class-cookie-law-info-cookieyes.php:1071
+#: lite/admin/dist/js/9.js:47
+msgid "Email"
+msgstr "メール"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:174
+#: lite/admin/dist/js/9.js:47
+msgid "Disconnect"
+msgstr "接続解除"
+
+#: legacy/includes/class-cookie-law-info-cookieyes.php:290
+msgid "Connect"
+msgstr "連携"
+
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:73
+#: legacy/admin/modules/cookies/cookies.php:250
+#: legacy/public/modules/script-blocker/views/settings.php:166
+#: lite/admin/dist/js/5.js:191
+msgid "Category"
+msgstr "カテゴリー"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:324
+msgid "Are you sure?"
+msgstr "本当に実行しますか ?"
+
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:315
+msgid "Append"
+msgstr "末尾に追加"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:167
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:254
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: legacy/admin/views/admin-settings-messagebar.php:10
+msgid "Revisit consent"
+msgstr "再訪同意"
+
+#: legacy/admin/views/admin-settings-messagebar.php:203
+msgid "From Right Margin"
+msgstr "右マージンから"
+
+#: legacy/admin/views/admin-settings-messagebar.php:161
+msgid "Enable revisit consent widget"
+msgstr "再訪同意ウィジェットを有効化"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:166
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:253
+msgid "We do not collect any personal data when you submit this form. It's your feedback that we value."
+msgstr "このフォームを送信する際に個人情報を収集することはありません。みなさんのフィードバックを得ることを重要視しています。"
+
+#: legacy/admin/modules/cookies/views/necessary-settings.php:35
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:49
+#: legacy/admin/partials/cookie-law-info-privacy_overview.php:33
+#: lite/admin/dist/js/app.js:1721 lite/admin/dist/js/app.js:1733
+#: lite/admin/dist/js/app.js:1745
+msgid "Title"
+msgstr "タイトル"
+
+#: legacy/includes/class-cookie-law-info-review-request.php:63
+#: lite/admin/cross-promotion-banners/class-wbte-accessibility-banner.php:309
+msgid "Remind me later"
+msgstr "後で再通知"
+
+#: legacy/public/modules/script-blocker/views/settings.php:163
+#: lite/admin/dist/js/5.js:191
+msgid "Name"
+msgstr "名前"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:260
+#: legacy/public/modules/script-blocker/views/settings.php:7
+msgid "Enable"
+msgstr "有効化"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:261
+#: legacy/public/modules/script-blocker/views/settings.php:7
+msgid "Disable"
+msgstr "無効化"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:203
+#: legacy/public/modules/script-blocker/script-blocker.php:204
+msgid "Script Blocker"
+msgstr "スクリプトブロッカー"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:230
+msgid "Status updated"
+msgstr "ステータスを更新しました"
+
+#: legacy/public/modules/script-blocker/views/settings.php:9
+msgid "Script blocker is enabled."
+msgstr "スクリプトブロッカーが有効になっています。"
+
+#: legacy/includes/class-cookie-law-info-review-request.php:65
+#: lite/admin/modules/review-feedback/class-review-feedback.php:101
+#: lite/admin/dist/js/app.js:1661
+msgid "Review now"
+msgstr "今すぐレビュー"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:40
+msgid "Cookie bar is currently active"
+msgstr "Cookie バーは現在有効です"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:258
+msgid "Advanced script rendering"
+msgstr "高度なスクリプトレンダリング"
+
+#: legacy/public/modules/script-blocker/views/settings.php:122
+msgid "Manage Script Blocking"
+msgstr "スクリプトのブロックを管理"
+
+#: legacy/public/modules/script-blocker/views/settings.php:164
+msgid "Enabled: Plugins will be blocked by default prior to obtaining user consent."
+msgstr "有効: プラグインはユーザーの同意を得るまでデフォルトでブロックされます。"
+
+#: legacy/public/modules/script-blocker/views/settings.php:164
+msgid "Disabled: Plugins will be rendered prior to obtaining consent."
+msgstr "無効: プラグインが同意を得る前にレンダリングされます。"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:48
+msgid "Cookie bar is currently inactive"
+msgstr "Cookie バーは現在無効です"
+
+#: legacy/public/modules/script-blocker/views/settings.php:9
+msgid "Script blocker is currently disabled. Enable the blocker if you want any of the below listed plugins to be auto blocked."
+msgstr "スクリプトブロッカーが現在無効になっています。以下のプラグインを自動でブロックしたい場合は、ブロッカーを有効化してください。"
+
+#: legacy/public/modules/script-blocker/script-blocker.php:262
+msgid "Advanced script rendering will render the blocked scripts using javascript thus eliminating the need for a page refresh. It is also optimized for caching since there is no server-side processing after obtaining the consent."
+msgstr "高度なスクリプトレンダリングは、ブロックされたスクリプトを javascript でレンダリングするため、ページの更新が不要になります。また、同意取得後のサーバーサイドの処理がないため、キャッシュにも最適化されています。"
+
+#. translators: %s: plugin help URL
+#: legacy/public/modules/script-blocker/views/settings.php:147
+msgid "Below is the list of plugins currently supported for auto blocking. Plugins marked inactive are either not installed or activated on your website. Enabled plugins will be blocked by default on the front-end of your website prior to obtaining user consent and rendered respectively based on consent. <a href=\"%s\" target=\"_blank\">Read more.</a>"
+msgstr "以下は、自動ブロックで現在サポートされているプラグインのリストです。 非アクティブとマークされたプラグインは、Web サイトにインストールされていないかアクティブ化されていません。 有効なプラグインは、ユーザーの同意を得る前に Web サイトのフロントエンドでデフォルトでブロックされ、同意に基づいてそれぞれレンダリングされます。<a href=\"%s\" target=\"_blank\">続きを読む</a>"
+
+#: legacy/public/modules/script-blocker/views/settings.php:200
+#: lite/admin/dist/js/4.js:287
+msgid "Inactive"
+msgstr "停止中"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:108
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:153
+msgid "I found a better plugin"
+msgstr "もっと良いプラグインを見つけた"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:98
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:139
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "プラグインは良いですが、サポートされていない特定の機能が必要です"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:175
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:259
+msgid "Submit & Deactivate"
+msgstr "送信して無効化"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:136
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "もしお時間があれば、無効化する理由を教えてください:"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:177
+msgid "I rather wouldn't say"
+msgstr "言いたくありません"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:174
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:263
+msgid "Go to support"
+msgstr "サポートにアクセス"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:100
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:143
+msgid "Could you tell us more about that feature?"
+msgstr "その機能についてもっと教えていただけますか ?"
+
+#: legacy/admin/modules/ccpa/ccpa.php:104
+msgid "Confirm"
+msgstr "確認"
+
+#: legacy/admin/views/admin-settings-buttons.php:353
+#: lite/admin/dist/js/app.js:1733
+msgid "Checkbox"
+msgstr "チェックボックス"
+
+#: legacy/admin/modules/ccpa/ccpa.php:105
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:317
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:176
+#: lite/admin/dist/js/5.js:83 lite/admin/dist/js/5.js:191
+#: lite/admin/dist/js/6.js:82 lite/admin/dist/js/7.js:71
+#: lite/admin/dist/js/7.js:83 lite/admin/dist/js/9.js:47
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: legacy/admin/views/admin-settings-messagebar.php:92
+msgid "Position:"
+msgstr "位置:"
+
+#: legacy/admin/modules/ccpa/ccpa.php:149
+msgid "GDPR"
+msgstr "GDPR"
+
+#: legacy/admin/views/admin-settings-buttons.php:344
+msgid "CCPA Text"
+msgstr "CCPA テキスト"
+
+#: legacy/admin/modules/ccpa/views/ccpa_settings.php:6
+msgid "CCPA Settings"
+msgstr "CCPA 設定"
+
+#: legacy/admin/modules/ccpa/ccpa.php:157
+msgid "CCPA & GDPR"
+msgstr "CCPA & GDPR"
+
+#: legacy/admin/modules/ccpa/ccpa.php:153
+msgid "CCPA"
+msgstr "CCPA"
+
+#: legacy/admin/modules/ccpa/ccpa.php:145
+msgid "Select the type of law"
+msgstr "法律の種類を選択"
+
+#: legacy/admin/views/admin-settings-general.php:17
+msgid "Enable cookie bar"
+msgstr "Cookie バーを有効化"
+
+#: legacy/admin/modules/ccpa/views/ccpa_settings.php:9
+msgid "Enable CCPA ?"
+msgstr "CCPA を有効化しますか ?"
+
+#: legacy/admin/views/admin-settings-messagebar.php:9
+msgid "Cookie bar"
+msgstr "Cookie バー"
+
+#: legacy/public/modules/shortcode/shortcode.php:514
+msgid "Close the cookie bar"
+msgstr "Cookie バーを閉じる"
+
+#: legacy/public/modules/shortcode/shortcode.php:514
+msgid "Close and Accept"
+msgstr "承認して閉じる"
+
+#: legacy/admin/views/admin-settings-messagebar.php:62
+msgid "Show cookie bar as"
+msgstr "以下として Cookie バーを表示:"
+
+#: legacy/admin/modules/ccpa/ccpa.php:103
+msgid "Do you really wish to opt out?"
+msgstr "本当にオプトアウトを希望しますか ?"
+
+#: legacy/public/views/cookie-law-info_bar.php:34
+msgid "Close"
+msgstr "閉じる"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:39
+msgid "Default state"
+msgstr "デフォルトの都道府県"
+
+#: legacy/admin/modules/cookies/cookies.php:602
+#: legacy/admin/modules/cookies/cookies.php:628
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:41
+#: legacy/public/views/cookie-law-info_popup_content.php:10
+msgid "Disabled"
+msgstr "無効"
+
+#: legacy/admin/partials/cookie-law-info-privacy_overview.php:66
+msgid "Save Settings"
+msgstr "設定を保存"
+
+#: legacy/admin/modules/cookies/cookies.php:601
+#: legacy/admin/modules/cookies/cookies.php:627
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:40
+#: legacy/public/modules/script-blocker/views/settings.php:164
+#: legacy/public/views/cookie-law-info_popup_content.php:9
+msgid "Enabled"
+msgstr "有効"
+
+#: legacy/admin/class-cookie-law-info-admin.php:433
+msgid "Arial"
+msgstr "Arial"
+
+#: legacy/admin/class-cookie-law-info-admin.php:407
+msgid "Small"
+msgstr "小"
+
+#: legacy/admin/class-cookie-law-info-admin.php:403
+msgid "Medium"
+msgstr "中"
+
+#: legacy/admin/class-cookie-law-info-admin.php:399
+msgid "Large"
+msgstr "大"
+
+#: legacy/admin/class-cookie-law-info-admin.php:395
+msgid "Extra Large"
+msgstr "特大"
+
+#: legacy/admin/modules/cookies/cookies.php:180
+msgid "Cookie Type"
+msgstr "Cookie タイプ"
+
+#: legacy/public/views/cookie-law-info_popup_content.php:11
+msgid "Show more"
+msgstr "展開する"
+
+#: legacy/admin/class-cookie-law-info-admin.php:465
+msgid "Verdana"
+msgstr "Verdana"
+
+#: legacy/admin/class-cookie-law-info-admin.php:461
+msgid "Trebuchet"
+msgstr "Trebuchet"
+
+#: legacy/admin/class-cookie-law-info-admin.php:457
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: legacy/admin/class-cookie-law-info-admin.php:453
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: legacy/admin/class-cookie-law-info-admin.php:449
+msgid "Lucida"
+msgstr "Lucida"
+
+#: legacy/admin/class-cookie-law-info-admin.php:445
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: legacy/admin/class-cookie-law-info-admin.php:441
+msgid "Georgia, serif"
+msgstr "Georgia, serif"
+
+#: legacy/admin/class-cookie-law-info-admin.php:437
+msgid "Arial Black"
+msgstr "Arial Black"
+
+#: legacy/admin/views/admin-settings-buttons.php:13
+#: legacy/admin/views/admin-settings-buttons.php:176
+msgid "Settings Button"
+msgstr "設定ボタン"
+
+#: legacy/public/views/cookie-law-info_popup_content.php:11
+msgid "Show less"
+msgstr "簡易表示"
+
+#: legacy/admin/class-cookie-law-info-admin.php:429
+msgid "Serif"
+msgstr "明朝体"
+
+#: legacy/admin/class-cookie-law-info-admin.php:425
+msgid "Sans Serif"
+msgstr "ゴシック体"
+
+#: legacy/admin/modules/cookies/cookies.php:412
+#: legacy/admin/modules/cookies/cookies.php:413 lite/admin/dist/js/7.js:71
+#: lite/admin/dist/js/7.js:95
+msgid "Necessary"
+msgstr "必須"
+
+#: legacy/admin/class-cookie-law-info-admin.php:200
+#: legacy/admin/class-cookie-law-info-admin.php:201
+#: legacy/admin/partials/cookie-law-info-privacy_overview.php:25
+msgid "Privacy Overview"
+msgstr "プライバシー概要"
+
+#: legacy/admin/modules/cookies/cookies.php:404
+#: legacy/admin/modules/cookies/cookies.php:405
+#: legacy/public/modules/script-blocker/views/settings.php:199
+msgid "Non-necessary"
+msgstr "必須ではない"
+
+#: legacy/admin/modules/cookies/views/necessary-settings.php:26
+msgid "Necessary Cookie Settings"
+msgstr "必須 Cookie 設定"
+
+#: legacy/admin/class-cookie-law-info-admin.php:421
+msgid "Default theme font"
+msgstr "テーマのデフォルトフォント"
+
+#: legacy/admin/modules/cookies/cookies.php:182
+msgid "Cookie Sensitivity"
+msgstr "Cookie 感度"
+
+#: legacy/public/views/cookie-law-info_popup_content.php:8
+msgid "Always Enabled"
+msgstr "常に有効"
+
+#: legacy/admin/views/admin-settings-help.php:30
+msgid "This is the cookie settings button rendering shortcode."
+msgstr "これは、ショートコードをレンダリングする Cookie 設定ボタンです。"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:27
+#: lite/admin/dist/js/6.js:154 lite/admin/dist/js/7.js:95
+msgid "Delete"
+msgstr "削除"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:51
+msgid "Heading"
+msgstr "見出し"
+
+#: legacy/admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:95
+#: legacy/admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:132
+#: legacy/admin/modules/cli-policy-generator/cli-policy-generator.php:122
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:305
+msgid "Error"
+msgstr "エラー"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:47
+msgid "Add new"
+msgstr "新規追加"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:26
+msgid "Sample content"
+msgstr "サンプルコンテンツ"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:25
+msgid "Sample heading"
+msgstr "サンプル見出し"
+
+#: legacy/admin/modules/cli-policy-generator/cli-policy-generator.php:123
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:325
+msgid "Success"
+msgstr "成功"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:92
+msgid "Create Cookie Policy page"
+msgstr "Cookie ポリシーページを作成する"
+
+#: legacy/admin/modules/cli-policy-generator/classes/class-preview-page.php:27
+msgid "Cookie Policy"
+msgstr "Cookie ポリシー"
+
+#: legacy/admin/views/admin-settings-buttons.php:238
+msgid "Click"
+msgstr "クリック"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:96
+msgid "Live preview"
+msgstr "ライブプレビュー"
+
+#: legacy/admin/views/admin-settings-buttons.php:238
+msgid "here"
+msgstr "こちら"
+
+#: legacy/public/modules/shortcode/shortcode.php:98
+msgid "No consent given."
+msgstr "同意されませんでした。"
+
+#: legacy/public/modules/shortcode/shortcode.php:94
+msgid "Consent rejected."
+msgstr "同意が拒否されました。"
+
+#: legacy/admin/modules/cli-policy-generator/cli-policy-generator.php:97
+#: legacy/admin/modules/cli-policy-generator/cli-policy-generator.php:98
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:21
+msgid "Policy generator"
+msgstr "ポリシージェネレーター"
+
+#: legacy/admin/modules/cli-policy-generator/classes/class-preview-page.php:81
+msgid "Auto reload preview"
+msgstr "自動再読み込みプレビュー"
+
+#: legacy/public/modules/shortcode/shortcode.php:89
+msgid "Your current state:"
+msgstr "現在の状態:"
+
+#: legacy/admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:23
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:29
+msgid "Unable to handle your request."
+msgstr "リクエストを処理できません。"
+
+#: legacy/admin/views/admin-settings-help.php:81
+msgid "Styles included"
+msgstr "含まれるスタイル"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:86
+msgid "Update existing Cookie Policy page"
+msgstr "既存の Cookie ポリシーページを更新"
+
+#: legacy/admin/views/admin-settings-help.php:36
+msgid "Setup margin for above buttons"
+msgstr "上のボタンの設定マージン"
+
+#: legacy/public/modules/shortcode/shortcode.php:100
+msgid "Manage your consent."
+msgstr "同意を管理します。"
+
+#: legacy/public/modules/shortcode/shortcode.php:92
+msgid "Consent accepted."
+msgstr "同意を承諾しました。"
+
+#: legacy/admin/views/admin-settings-help.php:83
+msgid "Columns available"
+msgstr "利用可能なカラム"
+
+#: legacy/admin/views/admin-settings-help.php:83
+msgid "Will print all columns by default."
+msgstr "デフォルトですべての列を出力します。"
+
+#: legacy/admin/views/admin-settings-buttons.php:238
+msgid " to generate content for Cookie Policy page."
+msgstr "クリックすると、Cookie ポリシーページのコンテンツが生成されます。"
+
+#: legacy/admin/views/admin-settings-messagebar.php:73
+#: lite/admin/dist/js/app.js:1757
+msgid "Position"
+msgstr "位置"
+
+#: legacy/admin/views/admin-settings-messagebar.php:187
+msgid "Bottom Right"
+msgstr "右下"
+
+#: legacy/admin/views/admin-settings-messagebar.php:190
+msgid "Bottom Left"
+msgstr "左下"
+
+#: legacy/admin/views/admin-settings-messagebar.php:193
+msgid "Top Right"
+msgstr "右上"
+
+#: legacy/admin/views/admin-settings-messagebar.php:196
+msgid "Top Left"
+msgstr "左上"
+
+#: legacy/admin/views/admin-settings-messagebar.php:69
+msgid "Widget"
+msgstr "ウィジェット"
+
+#: legacy/admin/views/admin-settings-messagebar.php:68
+#: lite/admin/dist/js/app.js:4276
+msgid "Popup"
+msgstr "ポップアップ"
+
+#: legacy/admin/views/admin-settings-messagebar.php:67
+#: lite/admin/dist/js/app.js:4276
+msgid "Banner"
+msgstr "バナー"
+
+#: legacy/admin/views/admin-settings-buttons.php:281
+#: legacy/admin/views/admin-settings-buttons.php:292
+msgid "Page"
+msgstr "固定ページ"
+
+#: legacy/admin/views/admin-settings-buttons.php:277
+msgid "URL or Page?"
+msgstr "URL またはページ ?"
+
+#: legacy/admin/views/admin-settings-buttons.php:295
+msgid "Select One"
+msgstr "1つ選択"
+
+#: legacy/admin/views/admin-settings-help.php:95
+msgid "Add content after accepting the cookie notice."
+msgstr "Cookie の通知を受け入れた後、コンテンツを追加します。"
+
+#: legacy/admin/views/admin-settings-buttons.php:315
+msgid "The currently selected page does not exist. Please select a new page."
+msgstr "現在選択されているページは存在しません。新しいページを選択してください。"
+
+#: legacy/admin/views/admin-settings-buttons.php:330
+msgid "Open in a new window"
+msgstr "リンクを新しいウィンドウで開く"
+
+#: legacy/admin/views/admin-settings-buttons.php:41
+#: legacy/admin/views/admin-settings-buttons.php:125
+#: legacy/admin/views/admin-settings-buttons.php:206
+#: legacy/admin/views/admin-settings-buttons.php:262
+#: legacy/admin/views/admin-settings-buttons.php:390
+msgid "Button"
+msgstr "ボタン"
+
+#: legacy/admin/views/admin-settings-help.php:108
+#: legacy/admin/views/admin-settings-help.php:111
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: legacy/admin/views/admin-settings-buttons.php:43
+#: legacy/admin/views/admin-settings-buttons.php:127
+#: legacy/admin/views/admin-settings-buttons.php:208
+#: legacy/admin/views/admin-settings-buttons.php:264
+#: legacy/admin/views/admin-settings-buttons.php:352
+#: legacy/admin/views/admin-settings-buttons.php:392
+msgid "Link"
+msgstr "リンク"
+
+#: legacy/admin/views/admin-settings-buttons.php:25
+#: legacy/admin/views/admin-settings-buttons.php:109
+#: legacy/admin/views/admin-settings-buttons.php:190
+#: legacy/admin/views/admin-settings-buttons.php:246
+#: legacy/admin/views/admin-settings-buttons.php:374
+#: lite/admin/dist/js/app.js:1685 lite/admin/dist/js/app.js:1697
+#: lite/admin/dist/js/app.js:1733
+msgid "Text"
+msgstr "テキスト"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:33
+#: legacy/admin/views/admin-settings-buttons.php:74
+#: legacy/admin/views/admin-settings-buttons.php:161
+#: legacy/admin/views/admin-settings-buttons.php:325
+#: legacy/admin/views/admin-settings-buttons.php:332
+#: legacy/admin/views/admin-settings-buttons.php:422
+#: legacy/admin/views/admin-settings-general.php:38
+#: legacy/admin/views/admin-settings-general.php:54
+#: legacy/admin/views/admin-settings-general.php:71
+#: legacy/admin/views/admin-settings-general.php:79
+#: legacy/admin/views/admin-settings-general.php:86
+#: legacy/admin/views/admin-settings-messagebar.php:85
+msgid "Yes"
+msgstr "はい"
+
+#: legacy/admin/views/admin-settings-buttons.php:428
+msgid "Size"
+msgstr "サイズ"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:34
+#: legacy/admin/views/admin-settings-buttons.php:76
+#: legacy/admin/views/admin-settings-buttons.php:162
+#: legacy/admin/views/admin-settings-buttons.php:326
+#: legacy/admin/views/admin-settings-buttons.php:333
+#: legacy/admin/views/admin-settings-buttons.php:424
+#: legacy/admin/views/admin-settings-general.php:39
+#: legacy/admin/views/admin-settings-general.php:55
+#: legacy/admin/views/admin-settings-general.php:72
+#: legacy/admin/views/admin-settings-general.php:80
+#: legacy/admin/views/admin-settings-general.php:87
+#: legacy/admin/views/admin-settings-messagebar.php:86
+#: legacy/public/modules/script-blocker/views/settings.php:162
+msgid "No"
+msgstr "いいえ"
+
+#: legacy/admin/views/admin-settings-buttons.php:64
+#: legacy/admin/views/admin-settings-buttons.php:151
+#: legacy/admin/views/admin-settings-buttons.php:279
+#: legacy/admin/views/admin-settings-buttons.php:286
+#: legacy/admin/views/admin-settings-buttons.php:412
+#: lite/admin/dist/js/app.js:1721
+msgid "URL"
+msgstr "URL"
+
+#: legacy/admin/class-cookie-law-info-admin.php:269
+#: lite/admin/class-admin.php:714 lite/admin/dist/js/app.js:1637
+msgid "Support"
+msgstr "サポート"
+
+#: legacy/admin/views/admin-settings-help.php:119
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: legacy/admin/views/admin-settings-general.php:20
+msgid "Off"
+msgstr "オフ"
+
+#: legacy/admin/modules/cookies/cookies.php:122
+msgid "Add New"
+msgstr "新規追加"
+
+#: legacy/admin/modules/uninstall-feedback/uninstall-feedback.php:118
+#: legacy/admin/views/admin-settings-general.php:10
+#: legacy/admin/views/admin-settings-general.php:66
+#: lite/admin/modules/uninstall-feedback/class-uninstall-feedback.php:181
+msgid "Other"
+msgstr "その他"
+
+#: legacy/admin/views/admin-settings-help.php:9
+msgid "Shortcodes"
+msgstr "ショートコード"
+
+#: legacy/admin/views/admin-settings-buttons.php:31
+#: legacy/admin/views/admin-settings-buttons.php:115
+#: legacy/admin/views/admin-settings-buttons.php:196
+#: legacy/admin/views/admin-settings-buttons.php:252
+#: legacy/admin/views/admin-settings-buttons.php:360
+#: legacy/admin/views/admin-settings-buttons.php:380
+msgid "Text colour"
+msgstr "テキストカラー"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:75
+msgid "Help Guide"
+msgstr "ヘルプガイド"
+
+#: legacy/admin/modules/cookies/views/necessary-settings.php:20
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:17
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:25
+msgid "Settings updated."
+msgstr "設定を更新しました。"
+
+#: legacy/admin/views/admin-settings-general.php:19
+msgid "On"
+msgstr "オン"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:71
+#: legacy/admin/views/admin-settings-general.php:9
+msgid "General"
+msgstr "一般"
+
+#: legacy/admin/views/admin-settings-messagebar.php:17
+msgid "Message Heading"
+msgstr "メッセージ見出し"
+
+#: legacy/admin/modules/cookies/views/necessary-settings.php:53
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:92
+#: legacy/admin/views/admin-settings-save-button.php:11
+msgid "Update Settings"
+msgstr "設定を更新"
+
+#: legacy/admin/views/admin-settings-general.php:46
+msgid "seconds"
+msgstr "秒"
+
+#: legacy/admin/views/admin-settings-messagebar.php:83
+msgid "Add overlay?"
+msgstr "オーバーレイを追加しますか ?"
+
+#: legacy/admin/views/admin-settings-buttons.php:39
+#: legacy/admin/views/admin-settings-buttons.php:123
+#: legacy/admin/views/admin-settings-buttons.php:204
+#: legacy/admin/views/admin-settings-buttons.php:260
+#: legacy/admin/views/admin-settings-buttons.php:350
+#: legacy/admin/views/admin-settings-buttons.php:388
+msgid "Show as"
+msgstr "表示方式:"
+
+#: legacy/admin/views/admin-settings-help.php:10
+#: legacy/admin/views/admin-settings-help.php:104
+msgid "Help Links"
+msgstr "ヘルプリンク"
+
+#: legacy/public/modules/shortcode/shortcode.php:135
+msgid "Delete Cookies"
+msgstr "Cookie を削除"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:72
+msgid "Customise Cookie Bar"
+msgstr "Cookie バーをカスタマイズ"
+
+#: legacy/admin/views/admin-settings-buttons.php:47
+#: legacy/admin/views/admin-settings-buttons.php:131
+#: legacy/admin/views/admin-settings-buttons.php:212
+#: legacy/admin/views/admin-settings-buttons.php:268
+#: legacy/admin/views/admin-settings-buttons.php:396
+msgid "Background colour"
+msgstr "背景色"
+
+#: legacy/admin/modules/cookies/views/necessary-settings.php:21
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:18
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:26
+msgid "Unable to update Settings."
+msgstr "設定を更新できません。"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:28
+msgid "Unable to reset settings."
+msgstr "設定のリセットができません。"
+
+#: legacy/admin/views/admin-settings-advanced.php:15
+msgid "Delete settings and reset"
+msgstr "設定を削除してリセット"
+
+#: legacy/admin/views/admin-settings-help.php:26
+msgid "This is the cookie reject button shortcode."
+msgstr "これは、Cookie 拒否ボタンのショートコードです。"
+
+#: legacy/admin/views/admin-settings-help.php:33
+msgid "This is the \"read more\" link you customise above."
+msgstr "これは、上記でカスタマイズした「続きを読む」リンクです。"
+
+#: legacy/admin/views/admin-settings-general.php:57
+msgid "This option will not work along with `Popup overlay`."
+msgstr "このオプションは「ポップアップオーバーレイ」と同時には機能しません。"
+
+#: legacy/admin/views/admin-settings-general.php:84
+msgid "Reload after Reject button click"
+msgstr "拒否ボタンをクリックした後に再読み込み"
+
+#: legacy/admin/views/admin-settings-messagebar.php:88
+msgid "`Accept on scroll` will not work along with this option."
+msgstr "「スクロールして同意」はこのオプションと同時には動作しません。"
+
+#: legacy/admin/views/admin-settings-help.php:22
+msgid "This is the \"main button\" you customise above."
+msgstr "これは、上記でカスタマイズする「メインボタン」です​​。"
+
+#: legacy/admin/views/admin-settings-general.php:36
+msgid "Auto-hide(Accept) cookie bar after delay?"
+msgstr "遅延後に Cookie バーを自動非表示 (承認) しますか ?"
+
+#: legacy/admin/views/admin-settings-help.php:117
+msgid "We would love to help you on any queries or issues."
+msgstr "何かご質問や問題がありましたら、ぜひお気軽にお問い合わせください。"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:27
+msgid "Settings reset to defaults."
+msgstr "設定をリセットしました。"
+
+#: legacy/admin/views/admin-settings-help.php:109
+msgid "Refer to our documentation to set and get started"
+msgstr "設定と開始についてはドキュメントを参照してください"
+
+#: legacy/admin/views/admin-settings-messagebar.php:87
+msgid "When the popup is active, an overlay will block the user from browsing the site."
+msgstr "ポップアップがアクティブな場合、オーバーレイはユーザーがサイトを閲覧するのをブロックします。"
+
+#: legacy/admin/views/admin-settings-general.php:56
+msgid "As per latest GDPR policies it is required to take an explicit consent for the cookies. Use this option with discretion especially if you serve EU"
+msgstr "最新の GDPR の方針に従って、Cookie に対する明示的な同意を取ることが要求されています。このオプションは、特に EU 圏のお客様にご利用いただく場合は、慎重にご利用ください。"
+
+#: legacy/admin/views/admin-settings-general.php:52
+msgid "Auto-hide cookie bar if the user scrolls ( Accept on Scroll )?"
+msgstr "スクロール後に Cookie バーを自動非表示 (承認) しますか (スクロールして同意) ?"
+
+#: legacy/admin/views/admin-settings-general.php:77
+msgid "Reload after Accept button click"
+msgstr "承諾ボタンをクリックした後に再読み込み"
+
+#: legacy/admin/views/admin-settings-messagebar.php:77
+#: legacy/admin/views/admin-settings-messagebar.php:175
+#: lite/admin/dist/js/app.js:1757
+msgid "Left"
+msgstr "左"
+
+#: legacy/admin/views/admin-settings-messagebar.php:78
+#: legacy/admin/views/admin-settings-messagebar.php:174
+#: lite/admin/dist/js/app.js:1757
+msgid "Right"
+msgstr "右"
+
+#: legacy/admin/modules/cookies/cookies.php:249
+#: legacy/public/modules/shortcode/shortcode.php:233
+msgid "Type"
+msgstr "タイプ"
+
+#: legacy/admin/class-cookie-law-info-admin.php:192
+#: legacy/admin/class-cookie-law-info-admin.php:193
+#: legacy/admin/class-cookie-law-info-admin.php:268
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:31
+#: lite/admin/class-admin.php:715
+msgid "Settings"
+msgstr "設定"
+
+#: legacy/admin/views/admin-settings-messagebar.php:128
+#: legacy/admin/views/admin-settings-messagebar.php:138
+msgid "Sticky"
+msgstr "先頭に固定表示"
+
+#: legacy/admin/views/admin-settings-buttons.php:56
+#: legacy/admin/views/admin-settings-buttons.php:139
+#: legacy/admin/views/admin-settings-buttons.php:404
+msgid "Action"
+msgstr "操作"
+
+#: legacy/admin/views/admin-settings-messagebar.php:97
+msgid "Header"
+msgstr "ヘッダー"
+
+#: legacy/admin/modules/cli-policy-generator/views/policy-generator.php:55
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:74
+#: legacy/admin/modules/cookies/cookies.php:254
+#: legacy/admin/modules/cookies/views/necessary-settings.php:41
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:55
+#: legacy/public/modules/script-blocker/views/settings.php:168
+#: legacy/public/modules/shortcode/shortcode.php:239
+#: lite/admin/dist/js/5.js:179 lite/admin/dist/js/5.js:191
+msgid "Description"
+msgstr "説明"
+
+#: legacy/admin/views/admin-settings-messagebar.php:98
+msgid "Footer"
+msgstr "フッター"
+
+#: legacy/admin/views/admin-settings-messagebar.php:25
+#: lite/admin/dist/js/app.js:1721
+msgid "Message"
+msgstr "メッセージ"
+
+#: legacy/admin/views/admin-settings-messagebar.php:54
+msgid "Font"
+msgstr "フォント"
+
+#: legacy/admin/views/admin-settings-messagebar.php:127
+#: legacy/admin/views/admin-settings-messagebar.php:137
+msgid "Animate"
+msgstr "アニメーション"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:73
+msgid "Customise Buttons"
+msgstr "カスタマイズボタン"
+
+#: legacy/admin/modules/cookies/cookies.php:126
+msgid "View Cookie Type"
+msgstr "Cookie タイプを表示"
+
+#: legacy/admin/modules/cookies/cookies.php:127
+msgid "Search Cookies"
+msgstr "Cookie を検索"
+
+#: legacy/admin/modules/cookies/cookies.php:121
+#: legacy/public/modules/shortcode/shortcode.php:230
+#: lite/admin/dist/js/5.js:179
+msgid "Cookie"
+msgstr "Cookie"
+
+#: legacy/admin/modules/cookies/cookies.php:179
+#: legacy/admin/modules/cookies/cookies.php:190 lite/admin/dist/js/5.js:191
+msgid "Cookie ID"
+msgstr "Cookie ID"
+
+#: legacy/admin/modules/cookies/cookies.php:128
+msgid "Nothing found"
+msgstr "見つかりません"
+
+#: legacy/admin/modules/cookie-scaner/views/scan-results.php:72
+#: legacy/admin/modules/cookies/cookies.php:251
+#: legacy/public/modules/shortcode/shortcode.php:236
+#: lite/admin/dist/js/5.js:179 lite/admin/dist/js/5.js:191
+msgid "Duration"
+msgstr "期間"
+
+#: legacy/admin/partials/cookie-law-info-admin_settings.php:74
+#: legacy/admin/views/admin-settings-advanced.php:8
+msgid "Advanced"
+msgstr "高度な設定"
+
+#: legacy/admin/views/admin-settings-messagebar.php:45
+msgid "Text Colour"
+msgstr "テキスト色"
+
+#: legacy/admin/views/admin-settings-messagebar.php:180
+msgid "Tab Position"
+msgstr "タブ位置"
+
+#: legacy/admin/class-cookie-law-info-admin.php:262
+#: legacy/admin/class-cookie-law-info-admin.php:301
+#: legacy/admin/modules/cookies/cookies.php:787
+msgid "Settings Updated."
+msgstr "設定を更新しました。"
+
+#: legacy/admin/views/admin-settings-buttons.php:12
+#: legacy/admin/views/admin-settings-buttons.php:94
+msgid "Reject Button"
+msgstr "却下ボタン"
+
+#: legacy/admin/views/admin-settings-help.php:65
+msgid "Other shortcodes"
+msgstr "その他のショートコード"
+
+#: legacy/admin/views/admin-settings-messagebar.php:122
+msgid "On load"
+msgstr "読み込み時"
+
+#: legacy/admin/modules/cookies/cookies.php:129
+msgid "Nothing found in Trash"
+msgstr "ゴミ箱には何も見つかりません"
+
+#: legacy/admin/modules/cookies/cookies.php:125
+msgid "New Cookie Type"
+msgstr "新規 Cookie タイプ"
+
+#: legacy/admin/views/admin-settings-help.php:116
+msgid "Help and Support"
+msgstr "ヘルプとサポート"
+
+#: legacy/admin/modules/cookies/cookies.php:120 lite/admin/dist/js/5.js:107
+#: lite/admin/dist/js/5.js:191 lite/admin/dist/js/5.js:215
+#: lite/admin/dist/js/app.js:1709
+msgid "Cookie List"
+msgstr "Cookie 一覧"
+
+#: legacy/admin/views/admin-settings-buttons.php:11
+#: legacy/admin/views/admin-settings-buttons.php:21
+msgid "Accept Button"
+msgstr "受諾ボタン"
+
+#: legacy/admin/views/admin-settings-messagebar.php:132
+msgid "On hide"
+msgstr "非表示選択時"
+
+#: legacy/admin/views/admin-settings-messagebar.php:203
+msgid "From Left Margin"
+msgstr "左マージンから"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:32
+msgid "Enable Non-necessary Cookie"
+msgstr "必須ではないクッキーを有効化"
+
+#: legacy/admin/modules/cookies/cookies.php:124
+msgid "Edit Cookie Type"
+msgstr "Cookie タイプを編集"
+
+#: legacy/admin/modules/cookies/cookies.php:181
+msgid "Cookie Duration"
+msgstr "Cookie 有効期間"
+
+#: legacy/admin/views/admin-settings-help.php:16
+msgid "Cookie bar shortcodes"
+msgstr "Cookie バーのショートコード"
+
+#: legacy/admin/views/admin-settings-messagebar.php:35
+msgid "Cookie Bar Colour"
+msgstr "Cookie バーの色"
+
+#: legacy/admin/modules/cookies/cookies.php:123
+msgid "Add New Cookie Type"
+msgstr "新規 Cookie タイプ"
+
+#: legacy/admin/views/admin-settings-buttons.php:420
+msgid "Open URL in new window?"
+msgstr "新しいウィンドウで URL を開きますか ?"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:23
+msgid "Non-necessary Cookie Settings"
+msgstr "必須ではない Cookie の設定"
+
+#: legacy/admin/views/admin-settings-general.php:43
+msgid "Milliseconds until hidden"
+msgstr "非表示にするまでの時間 (ミリ秒)"
+
+#: legacy/admin/views/admin-settings-help.php:91
+msgid "Add any text you like- useful if you want e.g. another language to English."
+msgstr "お好きなテキストを追加してください。例えば、英語に他の言語を追加したい場合に便利です。"
+
+#. Description of the plugin
+#: cookie-law-info.php
+msgid "A simple way to show your website complies with the EU Cookie Law / GDPR."
+msgstr "あなたのサイトが EU Cookie/GDPR に準拠していることを簡単に示せる方法です。"
+
+#: legacy/admin/views/admin-settings-general.php:69
+msgid "Reload after \"scroll accept\" event?"
+msgstr "「同意スクロール」ボタンをクリックした後に再読み込みしますか ?"
+
+#: legacy/admin/class-cookie-law-info-admin.php:243
+#: legacy/admin/class-cookie-law-info-admin.php:279
+#: legacy/admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:19
+#: legacy/admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:24
+#: legacy/admin/modules/cookie-scaner/cookie-scaner.php:282
+#: legacy/admin/modules/cookies/cookies.php:738
+#: legacy/admin/modules/cookies/cookies.php:751
+#: legacy/includes/class-cookie-law-info-cookieyes.php:126
+#: legacy/includes/class-cookie-law-info-cookieyes.php:922
+#: legacy/public/modules/script-blocker/script-blocker.php:180
+#: legacy/public/modules/script-blocker/script-blocker.php:221
+#: legacy/public/modules/script-blocker/script-blocker.php:355
+#: legacy/public/modules/script-blocker/script-blocker.php:670
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "この操作を実行するのに十分な権限がありません"
+
+#: legacy/admin/views/admin-settings-general.php:46
+msgid "Specify milliseconds (not seconds)"
+msgstr "ミリ秒を指定してください (秒ではありません)"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:68
+msgid "Print scripts in the head tag on the front end if above cookie settings is enabled and user has given consent."
+msgstr "上記の Cookie 設定が有効で、ユーザーが同意した場合、フロントエンドの head タグにスクリプトを出力します。"
+
+#: legacy/admin/modules/cookies/views/non-necessary-settings.php:82
+msgid "Print scripts before the closing body tag on the front end if above cookie settings is enabled and user has given consent."
+msgstr "上記の Cookie 設定が有効で、ユーザーが同意した場合、フロントエンドの body タグにスクリプトを出力します。"
+
+#: legacy/admin/views/admin-settings-help.php:72
+msgid "This prints out a nice table of cookies, in line with the guidance given by the ICO."
+msgstr "これにより、ICO のガイダンスに従って、Cookie の見やすい表が出力されます。"
+
+#: legacy/admin/views/admin-settings-advanced.php:9
+msgid "Sometimes themes apply settings that clash with plugins. If that happens, try adjusting these settings."
+msgstr "テーマは時々、プラグインと衝突する設定を適用する場合があります。その場合はこれらの設定を調整してみてください。"
+
+#: legacy/admin/views/admin-settings-buttons.php:371
+msgid "This button/link can be customised to either simply close the cookie bar, or follow a link. You can also customise the colours and styles, and show it as a link or a button."
+msgstr "このボタン・リンクは、単に cookie バーを閉じるか、リンクをたどるかのいずれかにカスタマイズすることができます。また、色やスタイルをカスタマイズしたり、リンクやボタンとして表示させることもできます。"
+
+#: legacy/admin/views/admin-settings-buttons.php:83
+#: legacy/admin/views/admin-settings-buttons.php:166
+msgid "Button Size"
+msgstr "ボタンサイズ"
+
+#: legacy/admin/views/admin-settings-help.php:66
+msgid "These shortcodes can be used in pages and posts on your website. It is not recommended to use these inside the cookie bar itself."
+msgstr "これらのショートコードは、このウェブサイトの固定ページや投稿で使用することができます。クッキーバーの内部で使用することはお勧めしません。"
+
+#: legacy/admin/views/admin-settings-help.php:87
+msgid "This shortcode will display a normal HTML link which when clicked, will delete the cookie set by Cookie Law Info (this cookie is used to remember that the cookie bar is closed)."
+msgstr "このショートコードは、通常の HTML リンクを表示し、それをクリックすると、Cookie Law Info が設定したクッキーを削除します（このクッキーは、クッキーバーが閉じられたことを記憶するために使用されます）。"
+
+#: legacy/admin/modules/cookies/cookies.php:119
+msgid "GDPR Cookie Consent"
+msgstr "GDPR Cookie Consent"

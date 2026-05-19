@@ -1,0 +1,12 @@
+# WordPressの設定ファイル（パスワード等が含まれるため絶対に入れない）
+wp-config.php
+.htaccess
+
+# 容量が大きくなる画像などのメディアフォルダを除外
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# システムの一時ファイルなど
+*.log
+.DS_Store

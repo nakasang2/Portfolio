@@ -1,0 +1,851 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: munio/comments.php:19
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "2019 Copyright <a target=\"_blank\" href=\"https://www.clapat.com/themes/munio/\">Munio Theme</a>."
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "404"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "775 New York Ave, Brooklyn, Kings, New York 11203"
+msgstr ""
+
+#. Text in function
+#: munio/comments.php:57
+msgid "<h4>You must be <a href=\"%s\">logged in</a> to post a comment.</h4>"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "ALT"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "ALT attribute."
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Accordion"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Accordion Item"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Add here any extra CSS class name(s). Separate multiple classes with space."
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Adds a google map with settings from theme options."
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Adds a space between two button shortcodes"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "All"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "All Projects"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Back Top"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Behance"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Big Title?"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Blog"
+msgstr ""
+
+#. Text in function
+#: munio/components/widgets/widgets.php:1
+msgid "Blog Sidebar"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Button"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Button Link"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Button link opens in a new or current window"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Button type"
+msgstr ""
+
+#. Text in function
+#: munio/comments.php:57
+msgid "Cancel Reply"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Caption"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Caption goes here"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Caption when hovering the button"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Captioned Image"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Carousel Image Slider"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Carousel Slide"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Categories"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Client Logo or Image"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Clients List"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Close"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Collage Image"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Collage Image Caption"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Collage Image Thumbnail"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Collage with image popup"
+msgstr ""
+
+#. Text in function
+#: munio/comments.php:57
+msgid "Comment"
+msgstr ""
+
+#. Text in echo
+#: munio/comments.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Contact Info"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Contact Info  Box"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Contact info goes here"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Content"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Content goes here"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Cover Image"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Cover image for still video"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "DeviantArt"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Digg"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Dismiss this notice"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Dribbble"
+msgstr ""
+
+#. Text in function
+#: munio/comments.php:57
+msgid "E-mail"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Extra Class Name"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Facebook"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Filters"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Flickr"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Follow Us"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Foursquare"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Git"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Go Back"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Has Underline?"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Here we are. Come to drink a coffee!"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Home Page"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Hover Caption"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Icon"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Icon displayed within contact info box. Type in the class of the icon in this edit box. The complete and latest list: http://fortawesome.github.io/Font-Awesome/icons/"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Icon displayed within service box. Type in the class of the icon in this edit box. The complete and latest list: http://fortawesome.github.io/Font-Awesome/icons/"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "If the title is displayed underlined or without underline"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Image"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Image ALT"
+msgstr ""
+
+#. Text in function
+#: munio/include/util_functions.php:1
+msgid "Image Description"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Image Popup"
+msgstr ""
+
+#. Text in function
+#: munio/include/util_functions.php:1
+msgid "Image Title"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Image caption."
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Image representing this collage item opening in a popup"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Image representing this slide"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Instagram"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Install Plugins"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Install Required Plugins"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. Text in function
+#: munio/comments.php:57
+msgid "Leave a comment"
+msgstr ""
+
+#. Text in function
+#: munio/comments.php:57
+msgid "Leave a comment to %s "
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Linkedin"
+msgstr ""
+
+#. Text in function
+#: munio/sections/header_section.php:23
+msgid "Logo Black"
+msgstr ""
+
+#. Text in function
+#: munio/sections/header_section.php:24
+msgid "Logo White"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Medium"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Menu"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Mp4 URL"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Munio"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Munio - Elements"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Munio - Sliders"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Munio - Typo Elements"
+msgstr ""
+
+#. Text in function
+#: munio/comments.php:57
+#: munio/include/vc_map.php:1
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Name of the person or company this testimonial belongs to."
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Next"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Next Project"
+msgstr ""
+
+#. Text in function
+#: munio/comments.php:19
+msgid "No Comments"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. Text in function
+#: munio/search.php:32
+msgid "No posts found"
+msgstr ""
+
+#. Text in function
+#: munio/category.php:32
+msgid "No posts found in this category"
+msgstr ""
+
+#. Text in function
+#: munio/tag.php:33
+msgid "No posts found with this tag"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Normal Image Slider"
+msgstr ""
+
+#. Text in function
+#: munio/comments.php:19
+msgid "One Comment"
+msgstr ""
+
+#. Text in function
+#: munio/page.php:42
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Pinterest"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. Text in function
+#: munio/comments.php:57
+msgid "Post Comment"
+msgstr ""
+
+#. Text in echo
+#: munio/sections/blog_post_section.php:11
+#: munio/single.php:58
+msgid "Post Image"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Reddit"
+msgstr ""
+
+#. Text in function
+#: munio/include/blog-config.php:1
+msgid "Reply"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Return to the Dashboard"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Rounded border"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Scroll Down"
+msgstr ""
+
+#. Text in function
+#: munio/search.php:19
+msgid "Search Results"
+msgstr ""
+
+#. Text in echo
+#: munio/searchform.php:2
+msgid "Search and hit enter"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Self hosted video"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Service Box"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Service Title"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "Show"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Skype"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Slide"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Slider Image"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Souncloud"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Stumbleupon"
+msgstr ""
+
+#. Text in function
+#: munio/single.php:78
+msgid "Tags:"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Target Window"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Testimonial"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Testimonials Carousel"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "The ALT attribute specifies an alternate text for an image, if the image cannot be displayed"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "The caption of this collage item"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "The client logo"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "The image"
+msgstr ""
+
+#. Text in function
+#: munio/include/default-theme-options.php:1
+msgid "The page you are looking for could not be found."
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "The tgmpa_admin_menu_use_add_theme_page filter is deprecated."
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "The thumbnail"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "This parameter applies only for H1 headings. If the title is normal or bigger title font size."
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#. Text in echo
+#: munio/comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Thumbnail Image"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Thumbnail image representing this ollage item, included in carousel and linking a high res version."
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Title"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Title Size"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Title of the service"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Title or header of the contact info box"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Tumblr"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Twitter"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "URL for the button"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "URL of the self hosted video in mp4 format"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "URL of the self hosted video in webm format"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Update Required"
+msgstr ""
+
+#. Text in function
+#: munio/components/helper_classes/tgm-plugin-activation/class-tgm-plugin-activation.php:1
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Vimeo"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Webm URL"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "WhatsApp"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Xing"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Yahoo"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Yelp"
+msgstr ""
+
+#. Text in function
+#: munio/include/blog-config.php:1
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#. Text in function
+#: munio/include/defines.php:1
+msgid "Youtube"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Zoomed Image"
+msgstr ""
+
+#. Text in function
+#: munio/include/vc_map.php:1
+msgid "Zoomed image - usually a higher res image"
+msgstr ""
+
+#. Text in function
+#: munio/include/blog-config.php:1
+msgid "at"
+msgstr ""

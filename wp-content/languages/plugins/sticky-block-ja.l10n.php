@@ -1,0 +1,2 @@
+<?php
+return ['x-generator'=>'GlotPress/4.0.1','translation-revision-date'=>'2023-03-12 19:57:34+0000','plural-forms'=>'nplurals=1; plural=0;','project-id-version'=>'Plugins - Sticky Block for Gutenberg Editor - Stable (latest release)','language'=>'ja_JP','messages'=>['http://www.senff.com'=>'http://www.senff.com','Senff'=>'Senff','Adds a Sticky Block to the Gutenberg Block editor.'=>'ブロックエディターへ固定式のブロックを追加します。','Sticky Block'=>'Sticky Block']];

@@ -1,0 +1,16 @@
+[04-Jan-2026 08:40:29 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPMailer\PHPMailer\OAuthTokenProvider" not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-includes/PHPMailer/OAuth.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/pgyyqidp/public_html/yusukenakamae.com/wp-includes/PHPMailer/OAuth.php on line 36
+[30-Jan-2026 12:11:34 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPMailer\PHPMailer\OAuthTokenProvider" not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-includes/PHPMailer/OAuth.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/pgyyqidp/public_html/yusukenakamae.com/wp-includes/PHPMailer/OAuth.php on line 36
+[27-Apr-2026 00:42:25 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPMailer\PHPMailer\OAuthTokenProvider" not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-includes/PHPMailer/OAuth.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/pgyyqidp/public_html/yusukenakamae.com/wp-includes/PHPMailer/OAuth.php on line 36
+[04-May-2026 01:39:23 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPMailer\PHPMailer\OAuthTokenProvider" not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-includes/PHPMailer/OAuth.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/pgyyqidp/public_html/yusukenakamae.com/wp-includes/PHPMailer/OAuth.php on line 36

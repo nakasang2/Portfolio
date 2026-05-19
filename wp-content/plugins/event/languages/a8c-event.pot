@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-08-13T01:10:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: event\n"
+
+#: src/edit.js:89
+msgid "Media settings"
+msgstr ""
+
+#: src/edit.js:91
+msgid "Focal point picker"
+msgstr ""
+
+#: src/edit.js:111
+msgid "Clear Media"
+msgstr ""
+
+#: src/edit.js:117
+msgid "Color Settings"
+msgstr ""
+
+#: src/edit.js:123
+msgid "Background Color"
+msgstr ""
+
+#: src/edit.js:128
+msgid "Text Color"
+msgstr ""
+
+#: src/edit.js:159
+msgid "Event Title"
+msgstr ""
+
+#: src/edit.js:163
+#: src/save.js:63
+msgid "When:"
+msgstr ""
+
+#: src/edit.js:183
+msgid "Choose a Date"
+msgstr ""
+
+#: src/edit.js:189
+#: src/save.js:75
+msgid "Where:"
+msgstr ""
+
+#: src/edit.js:198
+msgid "Event Location"
+msgstr ""
+
+#: src/edit.js:207
+msgid "Event Description"
+msgstr ""
+
+#: src/edit.js:227
+msgid "Event Image"
+msgstr ""
+
+#: src/index.js:20
+msgid "Event"
+msgstr ""
+
+#: src/index.js:21
+msgid "Show the time and location of an event."
+msgstr ""

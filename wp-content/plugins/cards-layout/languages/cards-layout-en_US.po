@@ -1,0 +1,35 @@
+# Copyright (C) 2025 Omor Faruk
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cards Layout 1.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cards-layout\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-29T02:18:07+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: cards-layout\n"
+
+#. Plugin Name of the plugin
+#: cards-layout.php
+msgid "Cards Layout"
+msgstr ""
+
+#. Description of the plugin
+#: cards-layout.php
+msgid "This plugin offers multiple customizable layouts like grid, list, and carousel, making content display easy and flexible."
+msgstr ""
+
+#. Author of the plugin
+#: cards-layout.php
+msgid "Omor Faruk"
+msgstr ""
+
+#. Author URI of the plugin
+#: cards-layout.php
+msgid "https://github.com/omor45faruk"
+msgstr ""

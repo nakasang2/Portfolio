@@ -1,0 +1,16 @@
+[26-Dec-2024 19:10:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/admin-filters.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/admin-filters.php on line 11
+[26-Dec-2024 19:10:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/admin.php on line 16
+[26-Dec-2024 19:11:00 UTC] PHP Fatal error:  Class 'WP_Upgrader_Skin' not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/class-automatic-upgrader-skin.php on line 21
+[26-Dec-2024 19:11:01 UTC] PHP Fatal error:  Class 'Bulk_Upgrader_Skin' not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/class-bulk-plugin-upgrader-skin.php on line 18
+[26-Dec-2024 19:11:02 UTC] PHP Fatal error:  Class 'Bulk_Upgrader_Skin' not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php on line 18
+[26-Dec-2024 19:11:03 UTC] PHP Fatal error:  Class 'WP_Upgrader_Skin' not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/class-bulk-upgrader-skin.php on line 18
+[26-Dec-2024 19:11:04 UTC] PHP Fatal error:  Class 'WP_Upgrader' not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/class-core-upgrader.php on line 25
+[26-Dec-2024 19:11:09 UTC] PHP Fatal error:  Class 'ftp_base' not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/class-ftp-pure.php on line 28
+[26-Dec-2024 19:11:10 UTC] PHP Fatal error:  Class 'ftp_base' not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/class-ftp-sockets.php on line 28
+[26-Dec-2024 19:11:11 UTC] PHP Fatal error:  Class 'WP_Upgrader_Skin' not found in /home/pgyyqidp/public_html/yusukenakamae.com/wp-admin/includes/class-language-pack-upgrader-skin.php on line 18

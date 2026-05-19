@@ -1,0 +1,63 @@
+/**
+ * Note that these styles are loaded *after* common styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+
+.editor-block-list__layout .editor-block-list__block.is-selected > .editor-block-list__block-edit::before {
+    background: rgba(0,0,0,0.02);
+}
+
+.clapat-editor-image {
+    display: inline-block;
+}
+
+.clapat-editor-image {
+    margin-right: 20px;
+}
+
+.clapat-editor-image p {
+	display:none;
+}
+
+.clapat-image-added img {
+	max-width:60px !important;
+}
+
+.editor-styles-wrapper .clapat-image-added p {
+	display:block;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 10px;
+}
+
+.editor-inserter {
+    padding: 0 12px!important;
+}
+
+.block-editor .editor-plain-text.clapat-inline-content, .clapat-inline-content {
+	font-size:12px;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+
+.editor-styles-wrapper p.clapat-editor-label {
+	font-size:14px;
+	margin-bottom:0px;
+}
+
+.clapat-color-palette {
+	margin-top:10px;
+	margin-bottom:60px;
+}
+
+.clapat-color-palette .components-color-palette__item-wrapper {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.clapat-color-palette .components-color-palette .components-color-palette__clear {
+    float: left;
+}
+
+.clapat-range-control .components-range-control__number {
+	display:none;
+}

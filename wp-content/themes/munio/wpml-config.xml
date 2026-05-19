@@ -1,0 +1,87 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">munio_portfolio</custom-type>
+    </custom-types>
+	<taxonomies>
+        <taxonomy translate="1">portfolio_category</taxonomy>
+    </taxonomies>
+    <custom-fields>
+		<custom-field action="copy">munio-opt-page-bknd-color</custom-field>
+		<custom-field action="copy">munio-opt-page-enable-hero</custom-field>
+		<custom-field action="translate">munio-opt-page-hero-caption-title</custom-field>
+		<custom-field action="translate">munio-opt-page-hero-caption-subtitle</custom-field>
+		<custom-field action="copy">munio-opt-page-enable-navigation</custom-field>
+		<custom-field action="translate">munio-opt-page-navigation-caption-title</custom-field>
+		<custom-field action="copy">munio-opt-page-navigation-next-url</custom-field>
+		<custom-field action="translate">munio-opt-page-navigation-next-title</custom-field>
+		<custom-field action="translate">munio-opt-page-navigation-next-subtitle</custom-field>
+		<custom-field action="copy">munio-opt-page-portfolio-mixed-items</custom-field>
+		<custom-field action="copy">munio-opt-page-portfolio-mixed-content-position</custom-field>
+		<custom-field action="translate">munio-opt-page-showcase-filter-category</custom-field>
+		<custom-field action="copy">munio-opt-blog-bknd-color</custom-field>
+		<custom-field action="copy">munio-opt-portfolio-bknd-color</custom-field>
+		<custom-field action="copy">munio-opt-portfolio-showcase-include</custom-field>
+		<custom-field action="copy">munio-opt-portfolio-hero-img</custom-field>
+		<custom-field action="copy">munio-opt-portfolio-video</custom-field>
+		<custom-field action="copy">munio-opt-portfolio-video-webm</custom-field>
+		<custom-field action="copy">munio-opt-portfolio-video-mp4</custom-field>
+		<custom-field action="translate">munio-opt-portfolio-hero-caption-title</custom-field>
+		<custom-field action="translate">munio-opt-portfolio-hero-caption-subtitle</custom-field>
+		<custom-field action="translate">munio-opt-portfolio-hero-scroll-caption</custom-field>
+		<custom-field action="translate">munio-opt-portfolio-hero-project-info</custom-field>
+		<custom-field action="copy">munio-opt-portfolio-hero-position</custom-field>
+	</custom-fields>
+    <admin-texts>
+        <key name="theme_mods_munio" />
+			<key name="clapat_munio_enable_ajax" />
+			<key name="clapat_munio_enable_smooth_scrolling" />
+			<key name="clapat_munio_enable_preloader" />
+			<key name="clapat_munio_enable_fullscreen_menu" />
+			<key name="clapat_munio_stretch_title" />
+			<key name="clapat_munio_enable_back_to_top" />
+			<key name="clapat_munio_enable_back_to_top_caption" />
+			<key name="clapat_munio_menu_btn_caption" />
+			<key name="clapat_munio_default_page_bknd_type" />
+			<key name="clapat_munio_enable_page_title_as_hero" />
+			<key name="clapat_munio_logo" />
+			<key name="clapat_munio_logo_light" />
+			<key name="clapat_munio_footer_copyright" />
+			<key name="clapat_munio_footer_social_links_prefix" />
+			<key name="clapat_munio_footer_social_1" />
+			<key name="clapat_munio_footer_social_url_1" />
+			<key name="clapat_munio_footer_social_2" />
+			<key name="clapat_munio_footer_social_url_2" />
+			<key name="clapat_munio_footer_social_3" />
+			<key name="clapat_munio_footer_social_url_3" />
+			<key name="clapat_munio_footer_social_4" />
+			<key name="clapat_munio_footer_social_url_4" />
+			<key name="clapat_munio_footer_social_5" />
+			<key name="clapat_munio_footer_social_url_5" />
+			<key name="clapat_munio_portfolio_custom_slug" />
+			<key name="clapat_munio_showcase_all_caption" />
+			<key name="clapat_munio_showcase_close_all_caption" />
+			<key name="clapat_munio_portfolio_filter_all_caption" />
+			<key name="clapat_munio_portfolio_show_categories_caption" />
+			<key name="clapat_munio_portfolio_show_filters_hover_caption" />
+			<key name="clapat_munio_portfolio_show_filters_caption" />
+			<key name="clapat_munio_portfolio_next_caption" />
+			<key name="clapat_munio_portfolio_navigation_order" />
+			<key name="clapat_munio_blog_next_post_caption" />
+			<key name="clapat_munio_blog_default_title" />
+			<key name="clapat_munio_map_address" />
+			<key name="clapat_munio_map_marker" />
+			<key name="clapat_munio_map_zoom" />
+			<key name="clapat_munio_map_company_name" />
+			<key name="clapat_munio_map_company_info" />
+			<key name="clapat_munio_map_type" />
+			<key name="clapat_munio_map_api_key" />
+			<key name="clapat_munio_error_title" />
+			<key name="clapat_munio_error_info" />
+			<key name="clapat_munio_error_back_button" />
+			<key name="clapat_munio_error_back_button_url" />
+			<key name="clapat_munio_error_page_bknd_type" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

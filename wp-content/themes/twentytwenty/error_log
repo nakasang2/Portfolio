@@ -1,0 +1,8 @@
+[08-Aug-2025 19:36:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pgyyqidp/public_html/yusukenakamae.com/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/pgyyqidp/public_html/yusukenakamae.com/wp-content/themes/twentytwenty/404.php on line 10
+[16-Nov-2025 20:21:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pgyyqidp/public_html/yusukenakamae.com/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/pgyyqidp/public_html/yusukenakamae.com/wp-content/themes/twentytwenty/404.php on line 10
