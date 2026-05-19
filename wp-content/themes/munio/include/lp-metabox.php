@@ -104,8 +104,8 @@ if ( ! function_exists( 'munio_lp_render_metabox' ) ) {
 			// Media picker
 			$( '.lp-mb-media-btn' ).on( 'click', function( e ) {
 				e.preventDefault();
-				var $btn    = $( this );
-				var $input  = $btn.closest( '.lp-mb-img-wrap' ).find( 'input[type="text"]' );
+				var $btn     = $( this );
+				var $input   = $btn.closest( '.lp-mb-img-wrap' ).find( 'input[type="text"]' );
 				var $preview = $btn.closest( '.lp-mb-img-wrap' ).find( '.lp-mb-img-preview' );
 				var frame = wp.media( { title: '画像を選択', button: { text: '選択' }, multiple: false } );
 				frame.on( 'select', function() {
@@ -120,25 +120,8 @@ if ( ! function_exists( 'munio_lp_render_metabox' ) ) {
 				var url = $( this ).val();
 				if ( url ) $( this ).closest( '.lp-mb-img-wrap' ).find( '.lp-mb-img-preview' ).attr( 'src', url ).show();
 			} );
-			// Show / hide based on page template selection
-			function toggleVisibility() {
-				var tpl = $( '#page_template' ).val();
-				if ( tpl === 'lp-page.php' ) {
-					$( '#munio-lp-settings .lp-mb-notice' ).hide();
-					$( '#munio-lp-settings .lp-mb-group' ).show();
-				} else {
-					$( '#munio-lp-settings .lp-mb-notice' ).show();
-					$( '#munio-lp-settings .lp-mb-group' ).hide();
-				}
-			}
-			toggleVisibility();
-			$( '#page_template' ).on( 'change', toggleVisibility );
 		} );
 		</script>
-
-		<div class="lp-mb-notice">
-			ページテンプレートで「<strong>LP Template</strong>」を選択すると、この設定が有効になります。
-		</div>
 
 		<?php foreach ( $sections as $section_key => $section ) :
 			$fields = $section['fields']; ?>
