@@ -167,7 +167,8 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 		<div class="lp-works__carousel-wrap">
 			<div class="lp-works__track" id="lp-works-track">
 				<?php while ( $works_query->have_posts() ) : $works_query->the_post();
-					$thumb    = get_the_post_thumbnail_url( get_the_ID(), 'large' );
+					$hero_img = munio_get_post_meta( MUNIO_THEME_OPTIONS, get_the_ID(), 'munio-opt-portfolio-hero-img' );
+					$thumb    = ( $hero_img && isset( $hero_img['url'] ) ) ? $hero_img['url'] : get_the_post_thumbnail_url( get_the_ID(), 'large' );
 					$subtitle = get_post_meta( get_the_ID(), 'munio-opt-portfolio-subtitle', true );
 				?>
 				<a class="lp-works__item hide-ball<?php echo $use_ajax ? ' ajax-link' : ''; ?>"
