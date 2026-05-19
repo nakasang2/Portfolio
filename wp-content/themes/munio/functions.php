@@ -163,6 +163,9 @@ if ( function_exists( 'vc_set_as_theme' ) ) {
 	require_once ( get_template_directory() . '/include/vc-config.php');
 }
 
+// LP Template metaboxes
+require_once ( get_template_directory() . '/include/lp-metabox.php');
+
 // Editor styles
 add_editor_style( 'style-editor.css' );
 ?>
