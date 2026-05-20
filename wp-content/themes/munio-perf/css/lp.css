@@ -259,6 +259,21 @@
 	color: rgba(255,255,255,0.85);
 }
 
+.lp-about__text .lp-btn--light {
+	margin-top: 40px;
+}
+
+.lp-btn--light {
+	border-color: rgba(255,255,255,0.35);
+	color: rgba(255,255,255,0.8);
+}
+
+.lp-btn--light:hover {
+	background: #fff;
+	border-color: #fff;
+	color: #000;
+}
+
 /* ---- Selected Works (horizontal carousel) ----------------- */
 .lp-works__header {
 	display: flex;

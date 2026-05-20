@@ -51,6 +51,8 @@ if ( ! function_exists( 'munio_lp_render_metabox' ) ) {
 					'lp_about_name'          => array( 'label' => '名前',                          'type' => 'text',     'placeholder' => 'Your Name' ),
 					'lp_about_bio'           => array( 'label' => '自己紹介文',                    'type' => 'textarea', 'placeholder' => '' ),
 					'lp_about_skills'        => array( 'label' => 'スキル（カンマ区切り）',        'type' => 'text',     'placeholder' => 'Film, 3DCG, Photography, Direction' ),
+					'lp_about_cta_text'      => array( 'label' => 'ボタン テキスト',               'type' => 'text',     'placeholder' => 'Contact' ),
+					'lp_about_cta_url'       => array( 'label' => 'ボタン URL（空欄で非表示）',    'type' => 'text',     'placeholder' => '/contact' ),
 				),
 			),
 			'works' => array(
@@ -202,6 +204,7 @@ if ( ! function_exists( 'munio_lp_save_metabox' ) ) {
 			'lp_hero_bg_image', 'lp_hero_name', 'lp_hero_title', 'lp_hero_tagline',
 			'lp_hero_cta_text', 'lp_hero_cta_anchor',
 			'lp_about_section_label', 'lp_about_image', 'lp_about_name', 'lp_about_skills',
+			'lp_about_cta_text', 'lp_about_cta_url',
 			'lp_works_section_label', 'lp_works_section_heading',
 			'lp_works_count', 'lp_works_category', 'lp_works_cta_text', 'lp_works_cta_url',
 			'lp_limited_section_label', 'lp_limited_headline', 'lp_limited_cta_text', 'lp_limited_cta_url',

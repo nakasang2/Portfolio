@@ -29,6 +29,8 @@ $about_image         = get_post_meta( $pid, 'lp_about_image',  true );
 $about_name          = get_post_meta( $pid, 'lp_about_name',   true );
 $about_bio           = get_post_meta( $pid, 'lp_about_bio',    true );
 $about_skills        = get_post_meta( $pid, 'lp_about_skills', true );
+$about_cta_text      = get_post_meta( $pid, 'lp_about_cta_text', true ) ?: 'Contact';
+$about_cta_url       = get_post_meta( $pid, 'lp_about_cta_url',  true );
 
 $works_section_label   = get_post_meta( $pid, 'lp_works_section_label',   true ) ?: 'Selected Works';
 $works_section_heading = get_post_meta( $pid, 'lp_works_section_heading', true ) ?: 'Works';
@@ -137,6 +139,15 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 					<span class="lp-about__skill"><?php echo esc_html( $skill ); ?></span>
 					<?php endforeach; ?>
 				</div>
+				<?php endif; ?>
+
+				<?php if ( $about_cta_url ) : ?>
+				<a href="<?php echo esc_url( $about_cta_url ); ?>"
+				   class="lp-btn lp-btn--light hide-ball<?php echo $use_ajax ? ' ajax-link' : ''; ?>"
+				   <?php echo $use_ajax ? 'data-type="page-transition"' : ''; ?>>
+					<?php echo esc_html( $about_cta_text ); ?>
+					<?php echo $arrow_icon; ?>
+				</a>
 				<?php endif; ?>
 			</div>
 
