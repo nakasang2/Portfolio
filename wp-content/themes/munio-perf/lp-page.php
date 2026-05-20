@@ -95,9 +95,13 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 			</a>
 		</div>
 
-		<div class="lp-hero__scroll">
-			<div class="lp-hero__scroll-line"></div>
-			<span>Scroll</span>
+		<div class="lp-hero__scroll" id="lp-scroll-hint" aria-hidden="true">
+			<div class="lp-hero__scroll-mouse">
+				<div class="lp-hero__scroll-wheel"></div>
+			</div>
+			<svg class="lp-hero__scroll-chevron" width="14" height="8" viewBox="0 0 14 8" fill="none">
+				<path d="M1 1l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+			</svg>
 		</div>
 	</section>
 
@@ -302,6 +306,18 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 	// Hero reveal
 	var hero = document.querySelector('.lp-hero');
 	if (hero) setTimeout(function() { hero.classList.add('is-loaded'); }, 100);
+
+	// Scroll hint — fade out once user starts scrolling
+	var scrollHint = document.getElementById('lp-scroll-hint');
+	if (scrollHint) {
+		var onScroll = function() {
+			if (window.scrollY > 60) {
+				scrollHint.classList.add('is-hidden');
+				window.removeEventListener('scroll', onScroll);
+			}
+		};
+		window.addEventListener('scroll', onScroll, { passive: true });
+	}
 
 	// Works carousel navigation
 	var track = document.getElementById('lp-works-track');
