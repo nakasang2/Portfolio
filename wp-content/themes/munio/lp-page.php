@@ -221,7 +221,7 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 	     LIMITED EDITION
 	     ==================================================== -->
 	<?php if ( $limited_headline || $limited_cta_url || $limited_images ) : ?>
-	<section id="limited" class="lp-limited">
+	<section id="limited" class="lp-limited white-section">
 		<div class="lp-limited__inner">
 			<?php if ( $limited_headline ) : ?>
 			<h2 class="lp-limited__headline"><?php echo esc_html( $limited_headline ); ?></h2>
