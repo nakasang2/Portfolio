@@ -337,13 +337,17 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 	if (track && prev && next) {
 		var scrollAmount = function() {
 			var item = track.querySelector('.lp-works__item');
-			return item ? item.offsetWidth + 3 : 320;
+			if (!item) return 320;
+			var itemWidth   = item.offsetWidth + 3; // +3 = gap
+			var trackWidth  = track.parentElement.offsetWidth;
+			var visibleCount = Math.max(1, Math.floor(trackWidth / itemWidth));
+			return itemWidth * visibleCount;
 		};
 		next.addEventListener('click', function() {
-			track.scrollBy({ left: scrollAmount() * 3, behavior: 'smooth' });
+			track.scrollBy({ left: scrollAmount(), behavior: 'smooth' });
 		});
 		prev.addEventListener('click', function() {
-			track.scrollBy({ left: -scrollAmount() * 3, behavior: 'smooth' });
+			track.scrollBy({ left: -scrollAmount(), behavior: 'smooth' });
 		});
 	}
 })();
