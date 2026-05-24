@@ -30,19 +30,51 @@
 <?php wp_footer(); ?>
 <script>
 /* Fail-safe: モバイルで AJAX 遷移の transitionend が発火しない場合に
-   body.show-loader / page-is-changing が残りリンクが押せなくなる問題を防ぐ */
+   body.show-loader 等が残りタップできなくなる問題を防ぐ */
 (function() {
 	var CLASSES = ['show-loader', 'page-is-changing', 'load-next-page',
 	               'load-next-project', 'load-project-page', 'load-project-page-carousel'];
+	var timer = null;
+
 	function clearBlockingClasses() {
 		CLASSES.forEach(function(c) { document.body.classList.remove(c); });
 	}
-	/* ページ読み込み完了から 4 秒後に強制クリア */
+
+	function scheduleClean(ms) {
+		clearTimeout(timer);
+		timer = setTimeout(clearBlockingClasses, ms || 1500);
+	}
+
+	/* 1. ページ初回ロード完了時に即クリア */
 	window.addEventListener('load', function() {
-		setTimeout(clearBlockingClasses, 4000);
+		scheduleClean(800);
 	});
-	/* AJAX 遷移後にも再適用（popstate / ajax:complete） */
-	document.addEventListener('ajaxComplete', clearBlockingClasses);
+
+	/* 2. iOS back/forward キャッシュ対応 */
+	window.addEventListener('pageshow', function(e) {
+		if (e.persisted) clearBlockingClasses();
+	});
+
+	/* 3. MutationObserver: show-loader が追加されたら 1.5秒後に強制削除 */
+	if (window.MutationObserver) {
+		new MutationObserver(function(mutations) {
+			mutations.forEach(function(m) {
+				if (m.type === 'attributes' && m.attributeName === 'class') {
+					var hasBlocking = CLASSES.some(function(c) {
+						return document.body.classList.contains(c);
+					});
+					if (hasBlocking) scheduleClean(1500);
+				}
+			});
+		}).observe(document.body, { attributes: true });
+	}
+
+	/* 4. jQuery ajaxComplete（正しい書き方） */
+	if (window.jQuery) {
+		jQuery(document).on('ajaxComplete', function() {
+			scheduleClean(600);
+		});
+	}
 })();
 </script>
 </body>
