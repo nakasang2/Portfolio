@@ -17,6 +17,9 @@ if ( ! have_posts() ) {
 the_post();
 $pid = get_the_ID();
 
+/* ── メタ値を取得 ─────────────────────────────────────── */
+
+// Hero
 $hero_bg      = get_post_meta( $pid, 'lp_hero_bg_image',   true );
 $hero_name    = get_post_meta( $pid, 'lp_hero_name',       true );
 $hero_title   = get_post_meta( $pid, 'lp_hero_title',      true );
@@ -24,6 +27,7 @@ $hero_tagline = get_post_meta( $pid, 'lp_hero_tagline',    true );
 $hero_cta     = get_post_meta( $pid, 'lp_hero_cta_text',   true ) ?: 'View Works';
 $hero_anchor  = get_post_meta( $pid, 'lp_hero_cta_anchor', true ) ?: '#works';
 
+// About
 $about_section_label = get_post_meta( $pid, 'lp_about_section_label', true ) ?: 'About';
 $about_image         = get_post_meta( $pid, 'lp_about_image',  true );
 $about_name          = get_post_meta( $pid, 'lp_about_name',   true );
@@ -32,6 +36,7 @@ $about_skills        = get_post_meta( $pid, 'lp_about_skills', true );
 $about_cta_text      = get_post_meta( $pid, 'lp_about_cta_text', true ) ?: 'Contact';
 $about_cta_url       = get_post_meta( $pid, 'lp_about_cta_url',  true );
 
+// Works
 $works_section_label   = get_post_meta( $pid, 'lp_works_section_label',   true ) ?: 'Selected Works';
 $works_section_heading = get_post_meta( $pid, 'lp_works_section_heading', true ) ?: 'Works';
 $works_count           = absint( get_post_meta( $pid, 'lp_works_count',    true ) ?: 6 );
@@ -39,6 +44,14 @@ $works_category        = get_post_meta( $pid, 'lp_works_category', true );
 $works_cta_text        = get_post_meta( $pid, 'lp_works_cta_text', true ) ?: 'View All Works';
 $works_cta_url         = get_post_meta( $pid, 'lp_works_cta_url',  true );
 
+// Blog Posts
+$posts_section_label   = get_post_meta( $pid, 'lp_posts_section_label',   true ) ?: 'Journal';
+$posts_section_heading = get_post_meta( $pid, 'lp_posts_section_heading', true ) ?: 'Latest Posts';
+$posts_count           = absint( get_post_meta( $pid, 'lp_posts_count', true ) ?: 3 );
+$posts_cta_text        = get_post_meta( $pid, 'lp_posts_cta_text', true ) ?: 'View All Posts';
+$posts_cta_url         = get_post_meta( $pid, 'lp_posts_cta_url',  true );
+
+// Limited Edition
 $limited_section_label = get_post_meta( $pid, 'lp_limited_section_label', true ) ?: 'Limited Edition';
 $limited_headline      = get_post_meta( $pid, 'lp_limited_headline', true );
 $limited_desc          = get_post_meta( $pid, 'lp_limited_desc',     true );
@@ -53,6 +66,7 @@ $limited_images        = array_filter( array(
 	get_post_meta( $pid, 'lp_limited_image_6', true ),
 ) );
 
+// Films
 $film_section_label = get_post_meta( $pid, 'lp_film_section_label', true ) ?: 'Short Film';
 $film_video_url     = get_post_meta( $pid, 'lp_film_video_url',  true );
 $film_poster_url    = get_post_meta( $pid, 'lp_film_poster_url', true );
@@ -61,16 +75,18 @@ $film_subtitle      = get_post_meta( $pid, 'lp_film_subtitle',   true );
 $film_cta_text      = get_post_meta( $pid, 'lp_film_cta_text',   true ) ?: 'Watch Film';
 $film_cta_url       = get_post_meta( $pid, 'lp_film_cta_url',    true );
 
-$arrow_icon = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+// セクション順序
+$section_order = array_filter( explode( ',', get_post_meta( $pid, 'lp_section_order', true ) ?: 'about,works,posts,limited,films' ) );
 
-$use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
+$arrow_icon = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+$use_ajax   = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 ?>
 
 <div id="main">
 <div id="main-content">
 
 	<!-- ====================================================
-	     HERO
+	     HERO（常に最上部）
 	     ==================================================== -->
 	<section class="lp-hero" id="top">
 		<?php if ( $hero_bg ) : ?>
@@ -108,9 +124,13 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 	</section>
 
 	<!-- ====================================================
-	     ABOUT
+	     動的セクション（並び順に従ってレンダリング）
 	     ==================================================== -->
-	<?php if ( $about_name || $about_bio || $about_image ) : ?>
+	<?php foreach ( $section_order as $section_key ) :
+
+	/* ── ABOUT ─────────────────────────────────────────── */
+	if ( 'about' === $section_key ) :
+		if ( $about_name || $about_bio || $about_image ) : ?>
 	<section id="about" class="lp-section lp-section--alt">
 		<div class="lp-about__inner">
 
@@ -153,11 +173,10 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 
 		</div>
 	</section>
-	<?php endif; ?>
+		<?php endif; // about condition
 
-	<!-- ====================================================
-	     SELECTED WORKS (horizontal carousel)
-	     ==================================================== -->
+	/* ── SELECTED WORKS ─────────────────────────────────── */
+	elseif ( 'works' === $section_key ) : ?>
 	<section id="works" class="lp-section">
 		<div class="lp-works__header">
 			<div>
@@ -232,10 +251,56 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 		<?php endif; ?>
 	</section>
 
-	<!-- ====================================================
-	     LIMITED EDITION
-	     ==================================================== -->
-	<?php if ( $limited_headline || $limited_cta_url || $limited_images ) : ?>
+	<?php /* ── BLOG POSTS ─────────────────────────────────────── */ elseif ( 'posts' === $section_key ) :
+		$posts_query = new WP_Query( array(
+			'post_type'      => 'post',
+			'posts_per_page' => $posts_count,
+			'post_status'    => 'publish',
+		) );
+		if ( $posts_query->have_posts() ) : ?>
+	<section id="posts" class="lp-section lp-section--alt">
+		<div class="lp-posts__header">
+			<span class="lp-section__label"><?php echo esc_html( $posts_section_label ); ?></span>
+			<h2 class="lp-section__heading"><?php echo esc_html( $posts_section_heading ); ?></h2>
+		</div>
+		<div class="lp-posts__grid">
+			<?php while ( $posts_query->have_posts() ) : $posts_query->the_post(); ?>
+			<a class="lp-posts__item hide-ball<?php echo $use_ajax ? ' ajax-link' : ''; ?>"
+			   <?php echo $use_ajax ? 'data-type="page-transition"' : ''; ?>
+			   href="<?php the_permalink(); ?>">
+				<?php if ( has_post_thumbnail() ) : ?>
+				<div class="lp-posts__item-thumb">
+					<img src="<?php echo esc_url( get_the_post_thumbnail_url( get_the_ID(), 'large' ) ); ?>"
+					     alt="<?php echo esc_attr( get_the_title() ); ?>"
+					     loading="lazy">
+				</div>
+				<?php endif; ?>
+				<div class="lp-posts__item-body">
+					<span class="lp-posts__item-date"><?php echo esc_html( get_the_date() ); ?></span>
+					<h3 class="lp-posts__item-title"><?php the_title(); ?></h3>
+					<p class="lp-posts__item-excerpt"><?php echo esc_html( wp_trim_words( get_the_excerpt(), 20, '…' ) ); ?></p>
+				</div>
+			</a>
+			<?php endwhile; wp_reset_postdata(); ?>
+		</div>
+
+		<?php if ( $posts_cta_url ) : ?>
+		<div class="lp-works__cta-wrap">
+			<a href="<?php echo esc_url( $posts_cta_url ); ?>"
+			   class="lp-btn hide-ball<?php echo $use_ajax ? ' ajax-link' : ''; ?>"
+			   <?php echo $use_ajax ? 'data-type="page-transition"' : ''; ?>>
+				<?php echo esc_html( $posts_cta_text ); ?>
+				<?php echo $arrow_icon; ?>
+			</a>
+		</div>
+		<?php endif; ?>
+	</section>
+		<?php endif; // posts have_posts
+		wp_reset_postdata();
+
+	/* ── LIMITED EDITION ─────────────────────────────────── */
+	elseif ( 'limited' === $section_key ) :
+		if ( $limited_headline || $limited_cta_url || $limited_images ) : ?>
 	<section id="limited" class="lp-limited white-section">
 		<div class="lp-limited__inner">
 			<?php if ( $limited_headline ) : ?>
@@ -265,15 +330,11 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 			<?php endif; ?>
 		</div>
 	</section>
-	<?php endif; ?>
+		<?php endif; // limited condition
 
-	<!-- ====================================================
-	     SHORT FILM
-	     ==================================================== -->
-	<!-- ====================================================
-	     SHORT FILM (single feature, video background)
-	     ==================================================== -->
-	<?php if ( $film_title || $film_video_url || $film_poster_url ) : ?>
+	/* ── SHORT FILM ─────────────────────────────────────── */
+	elseif ( 'films' === $section_key ) :
+		if ( $film_title || $film_video_url || $film_poster_url ) : ?>
 	<section id="films" class="lp-film-feature">
 		<?php if ( $film_video_url ) : ?>
 		<video class="lp-film-feature__video"
@@ -307,7 +368,11 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 			<?php endif; ?>
 		</div>
 	</section>
-	<?php endif; ?>
+		<?php endif; // films condition
+
+	endif; // section_key switch
+	endforeach; // section_order loop
+	?>
 
 </div>
 </div>
@@ -338,8 +403,8 @@ $use_ajax = munio_get_theme_options( 'clapat_munio_enable_ajax' );
 		var scrollAmount = function() {
 			var item = track.querySelector('.lp-works__item');
 			if (!item) return 320;
-			var itemWidth   = item.offsetWidth + 3; // +3 = gap
-			var trackWidth  = track.parentElement.offsetWidth;
+			var itemWidth    = item.offsetWidth + 3; // +3 = gap
+			var trackWidth   = track.parentElement.offsetWidth;
 			var visibleCount = Math.max(1, Math.floor(trackWidth / itemWidth));
 			return itemWidth * visibleCount;
 		};
