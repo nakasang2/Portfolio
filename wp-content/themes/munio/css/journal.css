@@ -7,10 +7,12 @@
 	background: #050505;
 	padding: 160px 80px 80px;
 	border-bottom: 1px solid rgba(255,255,255,0.06);
+	text-align: center;
 }
 
 .journal-hero__inner {
 	max-width: 700px;
+	margin: 0 auto;
 }
 
 .journal-hero__eyebrow {
@@ -24,10 +26,10 @@
 }
 
 .journal-hero__title {
-	font-size: clamp(40px, 6vw, 80px);
+	font-size: clamp(28px, 3.2vw, 48px);
 	font-weight: 700;
-	letter-spacing: -0.04em;
-	line-height: 0.95;
+	letter-spacing: -0.02em;
+	line-height: 1.1;
 	color: #fff;
 	margin-bottom: 24px;
 }
