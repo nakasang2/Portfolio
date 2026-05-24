@@ -1,0 +1,257 @@
+/* ============================================================
+   Journal (投稿一覧) Page Template
+   ============================================================ */
+
+/* ---- Page Hero -------------------------------------------- */
+.journal-hero {
+	background: #050505;
+	padding: 160px 80px 80px;
+	border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.journal-hero__inner {
+	max-width: 700px;
+}
+
+.journal-hero__eyebrow {
+	display: block;
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: 0.45em;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.3);
+	margin-bottom: 20px;
+}
+
+.journal-hero__title {
+	font-size: clamp(40px, 6vw, 80px);
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	line-height: 0.95;
+	color: #fff;
+	margin-bottom: 24px;
+}
+
+.journal-hero__subtitle {
+	font-size: 15px;
+	font-weight: 300;
+	color: rgba(255,255,255,0.4);
+	letter-spacing: 0.06em;
+	line-height: 1.75;
+}
+
+/* ---- Posts Grid ------------------------------------------- */
+.journal-section {
+	background: #080808;
+	padding: 80px 80px 120px;
+}
+
+.journal-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2px;
+	margin-bottom: 80px;
+}
+
+/* ---- Card ------------------------------------------------- */
+.journal-card {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: inherit;
+	background: #0a0a0a;
+	border: 1px solid rgba(255,255,255,0.05);
+	overflow: hidden;
+	transition: border-color 0.3s ease, background 0.3s ease;
+	cursor: pointer;
+}
+
+.journal-card:hover {
+	border-color: rgba(255,255,255,0.15);
+	background: rgba(255,255,255,0.03);
+}
+
+/* Thumbnail */
+.journal-card__thumb {
+	width: 100%;
+	aspect-ratio: 16/10;
+	overflow: hidden;
+	background: #111;
+	flex-shrink: 0;
+}
+
+.journal-card__thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.journal-card:hover .journal-card__thumb img {
+	transform: scale(1.06);
+}
+
+.journal-card__thumb-placeholder {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(160deg, #111 0%, #1a1a1a 100%);
+}
+
+/* Body */
+.journal-card__body {
+	padding: 28px 32px 36px;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.journal-card__meta {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	margin-bottom: 14px;
+}
+
+.journal-card__date {
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: 0.35em;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.25);
+}
+
+.journal-card__cat {
+	font-size: 9px;
+	font-weight: 400;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.2);
+	border: 1px solid rgba(255,255,255,0.1);
+	padding: 3px 10px;
+}
+
+.journal-card__title {
+	font-size: 18px;
+	font-weight: 600;
+	color: rgba(255,255,255,0.88);
+	letter-spacing: -0.02em;
+	line-height: 1.3;
+	margin: 0 0 14px;
+	transition: color 0.2s ease;
+}
+
+.journal-card:hover .journal-card__title {
+	color: #fff;
+}
+
+.journal-card__excerpt {
+	font-size: 13px;
+	font-weight: 300;
+	color: rgba(255,255,255,0.38);
+	line-height: 1.8;
+	margin: 0 0 28px;
+	flex: 1;
+}
+
+.journal-card__read {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.25);
+	transition: color 0.2s ease, gap 0.2s ease;
+}
+
+.journal-card__read svg {
+	transition: transform 0.3s ease;
+}
+
+.journal-card:hover .journal-card__read {
+	color: rgba(255,255,255,0.6);
+}
+
+.journal-card:hover .journal-card__read svg {
+	transform: translateX(4px);
+}
+
+/* ---- Pagination ------------------------------------------- */
+.journal-pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	flex-wrap: wrap;
+}
+
+.journal-pagination .page-numbers {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	border: 1px solid rgba(255,255,255,0.1);
+	color: rgba(255,255,255,0.35);
+	font-size: 12px;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+
+.journal-pagination .page-numbers:hover {
+	border-color: rgba(255,255,255,0.35);
+	color: rgba(255,255,255,0.8);
+}
+
+.journal-pagination .page-numbers.current {
+	border-color: #fff;
+	background: #fff;
+	color: #000;
+}
+
+.journal-pagination .page-numbers.dots {
+	border-color: transparent;
+	color: rgba(255,255,255,0.2);
+}
+
+/* ---- Empty state ------------------------------------------ */
+.journal-empty {
+	text-align: center;
+	padding: 80px 0;
+	font-size: 14px;
+	font-weight: 300;
+	color: rgba(255,255,255,0.25);
+	letter-spacing: 0.1em;
+}
+
+/* ---- Responsive ------------------------------------------- */
+@media (max-width: 1024px) {
+	.journal-hero {
+		padding: 140px 40px 64px;
+	}
+	.journal-section {
+		padding: 64px 40px 100px;
+	}
+	.journal-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.journal-hero {
+		padding: 120px 24px 48px;
+	}
+	.journal-section {
+		padding: 48px 24px 80px;
+	}
+	.journal-grid {
+		grid-template-columns: 1fr;
+		gap: 2px;
+	}
+	.journal-card__body {
+		padding: 22px 24px 28px;
+	}
+}
