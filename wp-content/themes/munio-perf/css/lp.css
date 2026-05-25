@@ -700,10 +700,12 @@
 	.lp-limited {
 		padding: 80px 40px;
 	}
-	.lp-hero__content,
-	.lp-hero__scroll {
+	.lp-hero__content {
 		padding-left: 40px;
-		left: 40px;
+	}
+	.lp-hero__scroll {
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	.lp-film-feature__content {
 		padding: 0 40px 48px;
@@ -718,7 +720,8 @@
 		padding: 0 24px;
 	}
 	.lp-hero__scroll {
-		left: 24px;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	.lp-section,
 	.lp-limited {
